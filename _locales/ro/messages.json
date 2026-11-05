@@ -1,0 +1,486 @@
+{
+  "extName": {
+    "message": "Motion Guard — Îngheață animațiile",
+    "description": "Extension name shown in chrome://extensions and the Web Store (<= 75 chars)."
+  },
+  "extDesc": {
+    "message": "Îngheață animații, tranziții, mișcare JS și GIF-uri în buclă dintr-un clic. Pagini mai calme pentru navigarea sensibilă la mișcare.",
+    "description": "Short description shown under the extension name (<= 132 chars)."
+  },
+  "ext_short": {
+    "message": "Motion Guard",
+    "description": "Short product name used in headers."
+  },
+  "pro": {
+    "message": "PRO",
+    "description": "Pro tier badge label."
+  },
+  "open_settings": {
+    "message": "Deschide setările",
+    "description": "Popup gear button tooltip/label."
+  },
+  "hero_label": {
+    "message": "Site-uri calmate auto.",
+    "description": "Popup hero stat label."
+  },
+  "hero_sub_ready": {
+    "message": "Apasă mai jos pentru a calma mișcarea de pe această pagină.",
+    "description": "Popup hero subtitle, idle."
+  },
+  "hero_sub_frozen": {
+    "message": "Mișcarea este înghețată pe această pagină.",
+    "description": "Popup hero subtitle when frozen."
+  },
+  "hero_sub_restricted": {
+    "message": "Deschide o pagină web normală pentru a-i calma mișcarea.",
+    "description": "Popup hero subtitle on restricted pages."
+  },
+  "master_title": {
+    "message": "Motion Guard",
+    "description": "Popup master switch title."
+  },
+  "master_aria": {
+    "message": "Activează sau dezactivează Motion Guard",
+    "description": "Popup master switch aria-label."
+  },
+  "master_on": {
+    "message": "Armat și pregătit",
+    "description": "Popup master hint when enabled."
+  },
+  "master_off": {
+    "message": "În pauză — nimic nu este calmat",
+    "description": "Popup master hint when disabled."
+  },
+  "freeze_page": {
+    "message": "Îngheață această pagină",
+    "description": "Popup primary freeze button."
+  },
+  "unfreeze_page": {
+    "message": "Dezgheață această pagină",
+    "description": "Popup primary button when frozen."
+  },
+  "cant_run": {
+    "message": "Motion Guard nu poate rula pe această pagină.",
+    "description": "Popup note on restricted pages."
+  },
+  "remember_title": {
+    "message": "Reține acest site",
+    "description": "Popup per-site memory row title."
+  },
+  "remember_aria": {
+    "message": "Calmează automat acest site la fiecare vizită",
+    "description": "Popup remember switch aria-label."
+  },
+  "pro_eyebrow": {
+    "message": "Automatizează",
+    "description": "Popup Pro section eyebrow."
+  },
+  "lock_global_t": {
+    "message": "Îngheață peste tot",
+    "description": "Popup Pro lock: global."
+  },
+  "lock_global_s": {
+    "message": "Calmează automat fiecare site pe care îl deschizi",
+    "description": "Popup Pro lock: global subtitle."
+  },
+  "lock_agg_t": {
+    "message": "Oprește și paralaxa și mișcarea JS",
+    "description": "Popup Pro lock: aggressive."
+  },
+  "lock_agg_s": {
+    "message": "Înghețare mai profundă pentru efectele de derulare",
+    "description": "Popup Pro lock: aggressive subtitle."
+  },
+  "lock_sync_t": {
+    "message": "Sincronizează site-urile mele",
+    "description": "Popup Pro lock: sync."
+  },
+  "lock_sync_s": {
+    "message": "Aceeași liniște pe fiecare dispozitiv",
+    "description": "Popup Pro lock: sync subtitle."
+  },
+  "upgrade_cta": {
+    "message": "Treci la Pro",
+    "description": "Popup gold upgrade button."
+  },
+  "pro_active": {
+    "message": "Pro este activ — mulțumim.",
+    "description": "Popup Pro-active line."
+  },
+  "more_tools": {
+    "message": "Mai multe instrumente calme pe zovo.one",
+    "description": "Popup own-funnel link (no sibling cross-sell)."
+  },
+  "footer_help": {
+    "message": "Ajutor și confidențialitate",
+    "description": "Popup footer link."
+  },
+  "pw_title": {
+    "message": "Fă liniștea automată",
+    "description": "Paywall title."
+  },
+  "pw_body": {
+    "message": "Astăzi calmezi fiecare pagină manual, iar versiunea gratuită reține trei site-uri. Pro face Motion Guard automat pe fiecare site și fiecare dispozitiv.",
+    "description": "Paywall body."
+  },
+  "pw_f1": {
+    "message": "Calmează fiecare site în momentul în care se încarcă",
+    "description": "Paywall feature 1."
+  },
+  "pw_f2": {
+    "message": "Site-uri reținute nelimitate, dincolo de cele 3 gratuite",
+    "description": "Paywall feature 2."
+  },
+  "pw_f3": {
+    "message": "Înghețare profundă a paralaxei și a mișcării JS scriptate",
+    "description": "Paywall feature 3."
+  },
+  "pw_f4": {
+    "message": "Sincronizează site-urile tale calmate pe fiecare dispozitiv",
+    "description": "Paywall feature 4."
+  },
+  "pw_free": {
+    "message": "Gratuit",
+    "description": "Paywall compare: free column head."
+  },
+  "pw_free_1": {
+    "message": "Calmare manuală",
+    "description": "Paywall compare: free row 1."
+  },
+  "pw_free_2": {
+    "message": "3 site-uri reținute",
+    "description": "Paywall compare: free row 2."
+  },
+  "pw_pro": {
+    "message": "Pro",
+    "description": "Paywall compare: pro column head."
+  },
+  "pw_pro_1": {
+    "message": "Calmare auto. peste tot",
+    "description": "Paywall compare: pro row 1."
+  },
+  "pw_pro_2": {
+    "message": "Nelimitat + sincronizare",
+    "description": "Paywall compare: pro row 2."
+  },
+  "pw_price_unit": {
+    "message": "pe viață",
+    "description": "Paywall price unit."
+  },
+  "pw_price_note": {
+    "message": "O singură plată deblochează Motion Guard Pro pentru totdeauna. Nu este un abonament.",
+    "description": "Paywall price note."
+  },
+  "pw_cta": {
+    "message": "Obține Pro — $$99 pe viață",
+    "description": "Paywall upgrade button."
+  },
+  "pw_later": {
+    "message": "Poate mai târziu",
+    "description": "Paywall dismiss button."
+  },
+  "pw_guarantee": {
+    "message": "Garanție de rambursare în 14 zile. Zero date colectate, vreodată.",
+    "description": "Paywall risk reversal."
+  },
+  "settings_title": {
+    "message": "Motion Guard",
+    "description": "Options page title."
+  },
+  "settings_sub": {
+    "message": "Calmează mișcarea din pagini — regulile tale, dispozitivul tău.",
+    "description": "Options page subtitle."
+  },
+  "badge_free": {
+    "message": "FREE",
+    "description": "Options tier badge (free)."
+  },
+  "badge_pro": {
+    "message": "PRO",
+    "description": "Options tier badge (pro)."
+  },
+  "get_pro": {
+    "message": "Obține Pro — $$99",
+    "description": "Options masthead upgrade button."
+  },
+  "general_h": {
+    "message": "General",
+    "description": "Options general section heading."
+  },
+  "theme_t": {
+    "message": "Aspect",
+    "description": "Options theme control title."
+  },
+  "theme_s": {
+    "message": "Cum arată această pagină de setări și fereastra popup.",
+    "description": "Options theme control hint."
+  },
+  "theme_system": {
+    "message": "Sistem",
+    "description": "Theme option: follow system."
+  },
+  "theme_light": {
+    "message": "Luminos",
+    "description": "Theme option: light."
+  },
+  "theme_dark": {
+    "message": "Întunecat",
+    "description": "Theme option: dark."
+  },
+  "master_t": {
+    "message": "Motion Guard este armat",
+    "description": "Options master toggle title."
+  },
+  "master_s": {
+    "message": "Când este oprit, nimic nu este calmat nicăieri.",
+    "description": "Options master toggle hint."
+  },
+  "freeze_h": {
+    "message": "Ce îngheață Motion Guard",
+    "description": "Options freeze section heading."
+  },
+  "freeze_lede": {
+    "message": "Acestea se aplică de fiecare dată când calmezi o pagină. Totul rulează 100% pe dispozitivul tău.",
+    "description": "Options freeze section lede."
+  },
+  "f_css_t": {
+    "message": "Animații și tranziții CSS",
+    "description": "Freeze option: CSS."
+  },
+  "f_css_s": {
+    "message": "Rotițe, slidere, marchize, mișcare la trecerea mouse-ului.",
+    "description": "Freeze option: CSS hint."
+  },
+  "f_waapi_t": {
+    "message": "Web Animations (JS)",
+    "description": "Freeze option: WAAPI."
+  },
+  "f_waapi_s": {
+    "message": "Mișcare condusă de element.animate().",
+    "description": "Freeze option: WAAPI hint."
+  },
+  "f_gif_t": {
+    "message": "GIF-uri în buclă, WebP și APNG",
+    "description": "Freeze option: images."
+  },
+  "f_gif_s": {
+    "message": "Îngheață imaginile animate la primul cadru.",
+    "description": "Freeze option: images hint."
+  },
+  "f_rm_t": {
+    "message": "Aplică stilul de mișcare redusă",
+    "description": "Freeze option: reduced motion."
+  },
+  "f_rm_s": {
+    "message": "Injectează resetarea CSS WCAG pentru mișcare redusă pe paginile calmate.",
+    "description": "Freeze option: reduced motion hint."
+  },
+  "sites_h": {
+    "message": "Site-uri reținute",
+    "description": "Options sites section heading."
+  },
+  "sites_lede": {
+    "message": "Site-urile de aici se calmează la fiecare vizită. Adaugă-le din popup cu „Reține acest site”.",
+    "description": "Options sites lede."
+  },
+  "sites_empty_t": {
+    "message": "Încă niciun site reținut",
+    "description": "Options sites empty title."
+  },
+  "sites_empty_s": {
+    "message": "Deschide un site, apasă pictograma Motion Guard, apoi „Reține acest site”.",
+    "description": "Options sites empty text."
+  },
+  "site_agg": {
+    "message": "Profund",
+    "description": "Tag on a remembered site using aggressive mode."
+  },
+  "site_forget": {
+    "message": "Uită",
+    "description": "Button to remove a remembered site."
+  },
+  "pro_h": {
+    "message": "Automatizare și Pro",
+    "description": "Options Pro section heading."
+  },
+  "p_global_t": {
+    "message": "Îngheață peste tot",
+    "description": "Pro: global toggle title."
+  },
+  "p_global_s": {
+    "message": "Calmează automat fiecare site pe care îl deschizi (cere acces la toate site-urile).",
+    "description": "Pro: global toggle hint."
+  },
+  "p_agg_t": {
+    "message": "Oprește și paralaxa și mișcarea JS",
+    "description": "Pro: aggressive toggle title."
+  },
+  "p_agg_s": {
+    "message": "Înghețare mai profundă. Poate opri jocuri, playere sau grafice în timp real.",
+    "description": "Pro: aggressive toggle hint."
+  },
+  "p_sync_t": {
+    "message": "Sincronizează site-urile mele",
+    "description": "Pro: sync toggle title."
+  },
+  "p_sync_s": {
+    "message": "Păstrează site-urile reținute identice pe fiecare dispozitiv.",
+    "description": "Pro: sync toggle hint."
+  },
+  "pro_locked_t": {
+    "message": "Fă Motion Guard automat",
+    "description": "Options Pro-veil headline."
+  },
+  "pro_locked_1": {
+    "message": "Calmează fiecare site în momentul în care se încarcă",
+    "description": "Options Pro-veil unlock 1."
+  },
+  "pro_locked_2": {
+    "message": "Site-uri reținute nelimitate, dincolo de cele 3 gratuite",
+    "description": "Options Pro-veil unlock 2."
+  },
+  "pro_locked_3": {
+    "message": "Înghețare profundă a paralaxei și a mișcării JS scriptate",
+    "description": "Options Pro-veil unlock 3."
+  },
+  "pro_locked_4": {
+    "message": "Sincronizează site-urile tale calmate pe fiecare dispozitiv",
+    "description": "Options Pro-veil unlock 4."
+  },
+  "pro_locked_unit": {
+    "message": "pe viață · o singură plată, nu un abonament",
+    "description": "Options Pro-veil price unit."
+  },
+  "pro_locked_cta": {
+    "message": "Obține Pro — $$99 pe viață",
+    "description": "Options Pro-veil upgrade button."
+  },
+  "pro_locked_guarantee": {
+    "message": "Garanție de rambursare în 14 zile. O singură plată deblochează Motion Guard Pro pentru totdeauna.",
+    "description": "Options Pro-veil risk reversal."
+  },
+  "zs_h": {
+    "message": "Deblochează Pro. Plătești o dată, al tău pentru totdeauna.",
+    "description": "Sidebar Pro card headline."
+  },
+  "zs_b1": {
+    "message": "Calmează fiecare site în momentul în care se încarcă",
+    "description": "Sidebar Pro benefit 1."
+  },
+  "zs_b2": {
+    "message": "Site-uri reținute nelimitate + sincronizare între dispozitive",
+    "description": "Sidebar Pro benefit 2."
+  },
+  "zs_b3": {
+    "message": "Înghețare profundă a paralaxei și a mișcării JS scriptate",
+    "description": "Sidebar Pro benefit 3."
+  },
+  "zs_unit": {
+    "message": "pe viață",
+    "description": "Sidebar price unit."
+  },
+  "zs_cta": {
+    "message": "Obține Pro — $$99 pe viață",
+    "description": "Sidebar upgrade button."
+  },
+  "zs_sub": {
+    "message": "O singură plată, nu un abonament · garanție de rambursare în 14 zile · administrează pe zovo.one",
+    "description": "Sidebar upgrade sub-line."
+  },
+  "zs_more": {
+    "message": "Mai multe instrumente",
+    "description": "Sidebar more-tools eyebrow."
+  },
+  "zs_more_link": {
+    "message": "Răsfoiește toate instrumentele pe zovo.one",
+    "description": "Sidebar own-funnel link."
+  },
+  "zs_help": {
+    "message": "Ajutor",
+    "description": "Sidebar footer help link."
+  },
+  "zs_privacy": {
+    "message": "Confidențialitate",
+    "description": "Sidebar footer privacy link."
+  },
+  "lic_label": {
+    "message": "Ai o cheie de licență?",
+    "description": "License input label."
+  },
+  "lic_verify": {
+    "message": "Verifică",
+    "description": "License verify button."
+  },
+  "lic_short": {
+    "message": "Introdu cheia de licență completă.",
+    "description": "License validation: too short."
+  },
+  "lic_checking": {
+    "message": "Se verifică…",
+    "description": "License status: checking."
+  },
+  "lic_ok": {
+    "message": "Pro este activ — mulțumim!",
+    "description": "License status: success."
+  },
+  "lic_bad": {
+    "message": "Nu am putut verifica acea cheie. Verific-o și încearcă din nou.",
+    "description": "License status: failure."
+  },
+  "about_h": {
+    "message": "Despre",
+    "description": "Options about heading."
+  },
+  "about_ver": {
+    "message": "Versiune",
+    "description": "About: version label."
+  },
+  "about_priv": {
+    "message": "Confidențialitate",
+    "description": "About: privacy label."
+  },
+  "about_priv_v": {
+    "message": "Fără conturi, fără urmărire, nicio dată nu părăsește dispozitivul tău.",
+    "description": "About: privacy value."
+  },
+  "about_kbd": {
+    "message": "Scurtătură",
+    "description": "About: shortcut label."
+  },
+  "about_kbd_v": {
+    "message": "îngheață pagina curentă",
+    "description": "About: shortcut value."
+  },
+  "about_site": {
+    "message": "zovo.one",
+    "description": "About: website link."
+  },
+  "foot_made": {
+    "message": "Creat de Zovo — 100% local, Manifest V3.",
+    "description": "Options footer line."
+  },
+  "s1_kicker": {
+    "message": "Creat pentru migrenă, tulburări vestibulare și sensibilitate la mișcare",
+    "description": "Onboarding step 1 kicker."
+  },
+  "s2_kicker": {
+    "message": "Încearcă-l chiar aici · nimic de configurat",
+    "description": "Onboarding step 2 kicker."
+  },
+  "s3_kicker": {
+    "message": "Setează-ți preferințele · 20 de secunde",
+    "description": "Onboarding step 3 kicker."
+  },
+  "s4_kicker": {
+    "message": "De ce te poți baza pe el pe fiecare pagină",
+    "description": "Onboarding step 4 kicker."
+  },
+  "s5_kicker": {
+    "message": "Gratuit pentru totdeauna · Pro când îl vrei automat",
+    "description": "Onboarding step 5 kicker."
+  },
+  "s6_kicker": {
+    "message": "Ești gata",
+    "description": "Onboarding step 6 kicker."
+  }
+}

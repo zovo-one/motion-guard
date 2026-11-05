@@ -1,0 +1,486 @@
+{
+  "extName": {
+    "message": "Motion Guard — Zamrzni animacije",
+    "description": "Extension name shown in chrome://extensions and the Web Store (<= 75 chars)."
+  },
+  "extDesc": {
+    "message": "Zamrznite animacije, prijelaze, JS pokret i GIF-ove u petlji jednim klikom. Mirnije stranice za pregledavanje osjetljivo na pokret.",
+    "description": "Short description shown under the extension name (<= 132 chars)."
+  },
+  "ext_short": {
+    "message": "Motion Guard",
+    "description": "Short product name used in headers."
+  },
+  "pro": {
+    "message": "PRO",
+    "description": "Pro tier badge label."
+  },
+  "open_settings": {
+    "message": "Otvori postavke",
+    "description": "Popup gear button tooltip/label."
+  },
+  "hero_label": {
+    "message": "Automatski smirene stranice",
+    "description": "Popup hero stat label."
+  },
+  "hero_sub_ready": {
+    "message": "Kliknite u nastavku da smirite pokret na ovoj stranici.",
+    "description": "Popup hero subtitle, idle."
+  },
+  "hero_sub_frozen": {
+    "message": "Pokret na ovoj stranici je zamrznut.",
+    "description": "Popup hero subtitle when frozen."
+  },
+  "hero_sub_restricted": {
+    "message": "Otvorite običnu web-stranicu da smirite njezin pokret.",
+    "description": "Popup hero subtitle on restricted pages."
+  },
+  "master_title": {
+    "message": "Motion Guard",
+    "description": "Popup master switch title."
+  },
+  "master_aria": {
+    "message": "Uključi ili isključi Motion Guard",
+    "description": "Popup master switch aria-label."
+  },
+  "master_on": {
+    "message": "Naoružan i spreman",
+    "description": "Popup master hint when enabled."
+  },
+  "master_off": {
+    "message": "Pauzirano — ništa nije smireno",
+    "description": "Popup master hint when disabled."
+  },
+  "freeze_page": {
+    "message": "Zamrzni ovu stranicu",
+    "description": "Popup primary freeze button."
+  },
+  "unfreeze_page": {
+    "message": "Odmrzni ovu stranicu",
+    "description": "Popup primary button when frozen."
+  },
+  "cant_run": {
+    "message": "Motion Guard ne može raditi na ovoj stranici.",
+    "description": "Popup note on restricted pages."
+  },
+  "remember_title": {
+    "message": "Zapamti ovu stranicu",
+    "description": "Popup per-site memory row title."
+  },
+  "remember_aria": {
+    "message": "Automatski smiri ovu stranicu pri svakom posjetu",
+    "description": "Popup remember switch aria-label."
+  },
+  "pro_eyebrow": {
+    "message": "Automatizirajte",
+    "description": "Popup Pro section eyebrow."
+  },
+  "lock_global_t": {
+    "message": "Zamrzni posvuda",
+    "description": "Popup Pro lock: global."
+  },
+  "lock_global_s": {
+    "message": "Automatski smiri svaku stranicu koju otvorite",
+    "description": "Popup Pro lock: global subtitle."
+  },
+  "lock_agg_t": {
+    "message": "Zaustavi i paralaksu i JS pokret",
+    "description": "Popup Pro lock: aggressive."
+  },
+  "lock_agg_s": {
+    "message": "Dublje zamrzavanje za efekte pomicanja",
+    "description": "Popup Pro lock: aggressive subtitle."
+  },
+  "lock_sync_t": {
+    "message": "Sinkroniziraj moje stranice",
+    "description": "Popup Pro lock: sync."
+  },
+  "lock_sync_s": {
+    "message": "Isti mir na svakom uređaju",
+    "description": "Popup Pro lock: sync subtitle."
+  },
+  "upgrade_cta": {
+    "message": "Nadogradi na Pro",
+    "description": "Popup gold upgrade button."
+  },
+  "pro_active": {
+    "message": "Pro je aktivan — hvala.",
+    "description": "Popup Pro-active line."
+  },
+  "more_tools": {
+    "message": "Više mirnih alata na zovo.one",
+    "description": "Popup own-funnel link (no sibling cross-sell)."
+  },
+  "footer_help": {
+    "message": "Pomoć i privatnost",
+    "description": "Popup footer link."
+  },
+  "pw_title": {
+    "message": "Neka mir bude automatski",
+    "description": "Paywall title."
+  },
+  "pw_body": {
+    "message": "Danas svaku stranicu smirujete ručno, a besplatna verzija pamti tri stranice. Pro čini Motion Guard automatskim na svakoj stranici i svakom uređaju.",
+    "description": "Paywall body."
+  },
+  "pw_f1": {
+    "message": "Smiri svaku stranicu čim se učita",
+    "description": "Paywall feature 1."
+  },
+  "pw_f2": {
+    "message": "Neograničeno zapamćenih stranica, iznad besplatne 3",
+    "description": "Paywall feature 2."
+  },
+  "pw_f3": {
+    "message": "Duboko zamrzavanje paralakse i skriptiranog JS pokreta",
+    "description": "Paywall feature 3."
+  },
+  "pw_f4": {
+    "message": "Sinkronizirajte svoje smirene stranice na svim uređajima",
+    "description": "Paywall feature 4."
+  },
+  "pw_free": {
+    "message": "Besplatno",
+    "description": "Paywall compare: free column head."
+  },
+  "pw_free_1": {
+    "message": "Ručno smirivanje",
+    "description": "Paywall compare: free row 1."
+  },
+  "pw_free_2": {
+    "message": "3 zapamćene stranice",
+    "description": "Paywall compare: free row 2."
+  },
+  "pw_pro": {
+    "message": "Pro",
+    "description": "Paywall compare: pro column head."
+  },
+  "pw_pro_1": {
+    "message": "Automatsko smirivanje posvuda",
+    "description": "Paywall compare: pro row 1."
+  },
+  "pw_pro_2": {
+    "message": "Neograničeno + sinkronizacija",
+    "description": "Paywall compare: pro row 2."
+  },
+  "pw_price_unit": {
+    "message": "doživotno",
+    "description": "Paywall price unit."
+  },
+  "pw_price_note": {
+    "message": "Jedno plaćanje zauvijek otključava Motion Guard Pro. Nije pretplata.",
+    "description": "Paywall price note."
+  },
+  "pw_cta": {
+    "message": "Nabavi Pro — $$99 doživotno",
+    "description": "Paywall upgrade button."
+  },
+  "pw_later": {
+    "message": "Možda kasnije",
+    "description": "Paywall dismiss button."
+  },
+  "pw_guarantee": {
+    "message": "14-dnevno jamstvo povrata novca. Nula prikupljenih podataka, ikada.",
+    "description": "Paywall risk reversal."
+  },
+  "settings_title": {
+    "message": "Motion Guard",
+    "description": "Options page title."
+  },
+  "settings_sub": {
+    "message": "Smirite pokret na stranicama — vaša pravila, vaš uređaj.",
+    "description": "Options page subtitle."
+  },
+  "badge_free": {
+    "message": "FREE",
+    "description": "Options tier badge (free)."
+  },
+  "badge_pro": {
+    "message": "PRO",
+    "description": "Options tier badge (pro)."
+  },
+  "get_pro": {
+    "message": "Nabavi Pro — $$99",
+    "description": "Options masthead upgrade button."
+  },
+  "general_h": {
+    "message": "Općenito",
+    "description": "Options general section heading."
+  },
+  "theme_t": {
+    "message": "Izgled",
+    "description": "Options theme control title."
+  },
+  "theme_s": {
+    "message": "Kako izgledaju ova stranica s postavkama i skočni prozor.",
+    "description": "Options theme control hint."
+  },
+  "theme_system": {
+    "message": "Sustav",
+    "description": "Theme option: follow system."
+  },
+  "theme_light": {
+    "message": "Svijetlo",
+    "description": "Theme option: light."
+  },
+  "theme_dark": {
+    "message": "Tamno",
+    "description": "Theme option: dark."
+  },
+  "master_t": {
+    "message": "Motion Guard je naoružan",
+    "description": "Options master toggle title."
+  },
+  "master_s": {
+    "message": "Kada je isključen, nigdje se ništa ne smiruje.",
+    "description": "Options master toggle hint."
+  },
+  "freeze_h": {
+    "message": "Što Motion Guard zamrzava",
+    "description": "Options freeze section heading."
+  },
+  "freeze_lede": {
+    "message": "Ovo se primjenjuje svaki put kada smirite stranicu. Sve radi 100 % na vašem uređaju.",
+    "description": "Options freeze section lede."
+  },
+  "f_css_t": {
+    "message": "CSS animacije i prijelazi",
+    "description": "Freeze option: CSS."
+  },
+  "f_css_s": {
+    "message": "Vrtiljci, klizači, pomične trake, pokret pri prelasku mišem.",
+    "description": "Freeze option: CSS hint."
+  },
+  "f_waapi_t": {
+    "message": "Web Animations (JS)",
+    "description": "Freeze option: WAAPI."
+  },
+  "f_waapi_s": {
+    "message": "Pokret pokretan pomoću element.animate().",
+    "description": "Freeze option: WAAPI hint."
+  },
+  "f_gif_t": {
+    "message": "GIF-ovi u petlji, WebP i APNG",
+    "description": "Freeze option: images."
+  },
+  "f_gif_s": {
+    "message": "Zamrzava animirane slike na njihov prvi okvir.",
+    "description": "Freeze option: images hint."
+  },
+  "f_rm_t": {
+    "message": "Primijeni stil smanjenog pokreta",
+    "description": "Freeze option: reduced motion."
+  },
+  "f_rm_s": {
+    "message": "Ubacuje WCAG CSS resetiranje smanjenog pokreta na smirene stranice.",
+    "description": "Freeze option: reduced motion hint."
+  },
+  "sites_h": {
+    "message": "Zapamćene stranice",
+    "description": "Options sites section heading."
+  },
+  "sites_lede": {
+    "message": "Stranice ovdje smiruju se pri svakom posjetu. Dodajte ih iz skočnog prozora s „Zapamti ovu stranicu”.",
+    "description": "Options sites lede."
+  },
+  "sites_empty_t": {
+    "message": "Još nema zapamćenih stranica",
+    "description": "Options sites empty title."
+  },
+  "sites_empty_s": {
+    "message": "Otvorite stranicu, kliknite ikonu Motion Guard, zatim „Zapamti ovu stranicu”.",
+    "description": "Options sites empty text."
+  },
+  "site_agg": {
+    "message": "Duboko",
+    "description": "Tag on a remembered site using aggressive mode."
+  },
+  "site_forget": {
+    "message": "Zaboravi",
+    "description": "Button to remove a remembered site."
+  },
+  "pro_h": {
+    "message": "Automatizacija i Pro",
+    "description": "Options Pro section heading."
+  },
+  "p_global_t": {
+    "message": "Zamrzni posvuda",
+    "description": "Pro: global toggle title."
+  },
+  "p_global_s": {
+    "message": "Automatski smiri svaku stranicu koju otvorite (traži pristup svim stranicama).",
+    "description": "Pro: global toggle hint."
+  },
+  "p_agg_t": {
+    "message": "Zaustavi i paralaksu i JS pokret",
+    "description": "Pro: aggressive toggle title."
+  },
+  "p_agg_s": {
+    "message": "Dublje zamrzavanje. Može pauzirati igre, playere ili grafikone uživo.",
+    "description": "Pro: aggressive toggle hint."
+  },
+  "p_sync_t": {
+    "message": "Sinkroniziraj moje stranice",
+    "description": "Pro: sync toggle title."
+  },
+  "p_sync_s": {
+    "message": "Zadržite zapamćene stranice jednakima na svakom uređaju.",
+    "description": "Pro: sync toggle hint."
+  },
+  "pro_locked_t": {
+    "message": "Učinite Motion Guard automatskim",
+    "description": "Options Pro-veil headline."
+  },
+  "pro_locked_1": {
+    "message": "Smiri svaku stranicu čim se učita",
+    "description": "Options Pro-veil unlock 1."
+  },
+  "pro_locked_2": {
+    "message": "Neograničeno zapamćenih stranica, iznad besplatne 3",
+    "description": "Options Pro-veil unlock 2."
+  },
+  "pro_locked_3": {
+    "message": "Duboko zamrzavanje paralakse i skriptiranog JS pokreta",
+    "description": "Options Pro-veil unlock 3."
+  },
+  "pro_locked_4": {
+    "message": "Sinkronizirajte svoje smirene stranice na svim uređajima",
+    "description": "Options Pro-veil unlock 4."
+  },
+  "pro_locked_unit": {
+    "message": "doživotno · jedno plaćanje, ne pretplata",
+    "description": "Options Pro-veil price unit."
+  },
+  "pro_locked_cta": {
+    "message": "Nabavi Pro — $$99 doživotno",
+    "description": "Options Pro-veil upgrade button."
+  },
+  "pro_locked_guarantee": {
+    "message": "14-dnevno jamstvo povrata novca. Jedno plaćanje zauvijek otključava Motion Guard Pro.",
+    "description": "Options Pro-veil risk reversal."
+  },
+  "zs_h": {
+    "message": "Otključajte Pro. Platite jednom, vaše zauvijek.",
+    "description": "Sidebar Pro card headline."
+  },
+  "zs_b1": {
+    "message": "Smiri svaku stranicu čim se učita",
+    "description": "Sidebar Pro benefit 1."
+  },
+  "zs_b2": {
+    "message": "Neograničeno zapamćenih stranica + sinkronizacija među uređajima",
+    "description": "Sidebar Pro benefit 2."
+  },
+  "zs_b3": {
+    "message": "Duboko zamrzavanje paralakse i skriptiranog JS pokreta",
+    "description": "Sidebar Pro benefit 3."
+  },
+  "zs_unit": {
+    "message": "doživotno",
+    "description": "Sidebar price unit."
+  },
+  "zs_cta": {
+    "message": "Nabavi Pro — $$99 doživotno",
+    "description": "Sidebar upgrade button."
+  },
+  "zs_sub": {
+    "message": "Jedno plaćanje, ne pretplata · 14-dnevno jamstvo povrata novca · upravljajte na zovo.one",
+    "description": "Sidebar upgrade sub-line."
+  },
+  "zs_more": {
+    "message": "Više alata",
+    "description": "Sidebar more-tools eyebrow."
+  },
+  "zs_more_link": {
+    "message": "Pregledajte sve alate na zovo.one",
+    "description": "Sidebar own-funnel link."
+  },
+  "zs_help": {
+    "message": "Pomoć",
+    "description": "Sidebar footer help link."
+  },
+  "zs_privacy": {
+    "message": "Privatnost",
+    "description": "Sidebar footer privacy link."
+  },
+  "lic_label": {
+    "message": "Imate licencni ključ?",
+    "description": "License input label."
+  },
+  "lic_verify": {
+    "message": "Provjeri",
+    "description": "License verify button."
+  },
+  "lic_short": {
+    "message": "Unesite svoj cijeli licencni ključ.",
+    "description": "License validation: too short."
+  },
+  "lic_checking": {
+    "message": "Provjeravanje…",
+    "description": "License status: checking."
+  },
+  "lic_ok": {
+    "message": "Pro je aktivan — hvala!",
+    "description": "License status: success."
+  },
+  "lic_bad": {
+    "message": "Nije moguće provjeriti taj ključ. Provjerite ga i pokušajte ponovno.",
+    "description": "License status: failure."
+  },
+  "about_h": {
+    "message": "O aplikaciji",
+    "description": "Options about heading."
+  },
+  "about_ver": {
+    "message": "Verzija",
+    "description": "About: version label."
+  },
+  "about_priv": {
+    "message": "Privatnost",
+    "description": "About: privacy label."
+  },
+  "about_priv_v": {
+    "message": "Bez računa, bez praćenja, nijedan podatak ne napušta vaš uređaj.",
+    "description": "About: privacy value."
+  },
+  "about_kbd": {
+    "message": "Prečac",
+    "description": "About: shortcut label."
+  },
+  "about_kbd_v": {
+    "message": "zamrzava trenutnu stranicu",
+    "description": "About: shortcut value."
+  },
+  "about_site": {
+    "message": "zovo.one",
+    "description": "About: website link."
+  },
+  "foot_made": {
+    "message": "Izradio Zovo — 100 % lokalno, Manifest V3.",
+    "description": "Options footer line."
+  },
+  "s1_kicker": {
+    "message": "Napravljeno za migrenu, vestibularne smetnje i osjetljivost na pokret",
+    "description": "Onboarding step 1 kicker."
+  },
+  "s2_kicker": {
+    "message": "Isprobajte odmah ovdje · ništa za postaviti",
+    "description": "Onboarding step 2 kicker."
+  },
+  "s3_kicker": {
+    "message": "Postavite svoje zadane postavke · 20 sekundi",
+    "description": "Onboarding step 3 kicker."
+  },
+  "s4_kicker": {
+    "message": "Zašto mu možete vjerovati na svakoj stranici",
+    "description": "Onboarding step 4 kicker."
+  },
+  "s5_kicker": {
+    "message": "Besplatno zauvijek · Pro kada želite automatski",
+    "description": "Onboarding step 5 kicker."
+  },
+  "s6_kicker": {
+    "message": "Sve je spremno",
+    "description": "Onboarding step 6 kicker."
+  }
+}

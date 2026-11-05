@@ -1,0 +1,486 @@
+{
+  "extName": {
+    "message": "Motion Guard — Congela les animacions",
+    "description": "Extension name shown in chrome://extensions and the Web Store (<= 75 chars)."
+  },
+  "extDesc": {
+    "message": "Congela animacions, transicions, moviment JS i GIF en bucle amb un clic. Pàgines calmades per a navegació sensible al moviment.",
+    "description": "Short description shown under the extension name (<= 132 chars)."
+  },
+  "ext_short": {
+    "message": "Motion Guard",
+    "description": "Short product name used in headers."
+  },
+  "pro": {
+    "message": "PRO",
+    "description": "Pro tier badge label."
+  },
+  "open_settings": {
+    "message": "Obre la configuració",
+    "description": "Popup gear button tooltip/label."
+  },
+  "hero_label": {
+    "message": "Llocs calmats auto.",
+    "description": "Popup hero stat label."
+  },
+  "hero_sub_ready": {
+    "message": "Fes clic a sota per calmar el moviment d’aquesta pàgina.",
+    "description": "Popup hero subtitle, idle."
+  },
+  "hero_sub_frozen": {
+    "message": "El moviment està congelat en aquesta pàgina.",
+    "description": "Popup hero subtitle when frozen."
+  },
+  "hero_sub_restricted": {
+    "message": "Obre una pàgina web normal per calmar-ne el moviment.",
+    "description": "Popup hero subtitle on restricted pages."
+  },
+  "master_title": {
+    "message": "Motion Guard",
+    "description": "Popup master switch title."
+  },
+  "master_aria": {
+    "message": "Activa o desactiva Motion Guard",
+    "description": "Popup master switch aria-label."
+  },
+  "master_on": {
+    "message": "Armat i a punt",
+    "description": "Popup master hint when enabled."
+  },
+  "master_off": {
+    "message": "En pausa — no es calma res",
+    "description": "Popup master hint when disabled."
+  },
+  "freeze_page": {
+    "message": "Congela aquesta pàgina",
+    "description": "Popup primary freeze button."
+  },
+  "unfreeze_page": {
+    "message": "Descongela aquesta pàgina",
+    "description": "Popup primary button when frozen."
+  },
+  "cant_run": {
+    "message": "Motion Guard no pot funcionar en aquesta pàgina.",
+    "description": "Popup note on restricted pages."
+  },
+  "remember_title": {
+    "message": "Recorda aquest lloc",
+    "description": "Popup per-site memory row title."
+  },
+  "remember_aria": {
+    "message": "Calma aquest lloc automàticament a cada visita",
+    "description": "Popup remember switch aria-label."
+  },
+  "pro_eyebrow": {
+    "message": "Automatitza-ho",
+    "description": "Popup Pro section eyebrow."
+  },
+  "lock_global_t": {
+    "message": "Congela pertot",
+    "description": "Popup Pro lock: global."
+  },
+  "lock_global_s": {
+    "message": "Calma automàticament cada lloc que obris",
+    "description": "Popup Pro lock: global subtitle."
+  },
+  "lock_agg_t": {
+    "message": "Atura també el paral·laxi i el moviment JS",
+    "description": "Popup Pro lock: aggressive."
+  },
+  "lock_agg_s": {
+    "message": "Congelació més profunda per als efectes de desplaçament",
+    "description": "Popup Pro lock: aggressive subtitle."
+  },
+  "lock_sync_t": {
+    "message": "Sincronitza els meus llocs",
+    "description": "Popup Pro lock: sync."
+  },
+  "lock_sync_s": {
+    "message": "La mateixa calma a tots els dispositius",
+    "description": "Popup Pro lock: sync subtitle."
+  },
+  "upgrade_cta": {
+    "message": "Passa a Pro",
+    "description": "Popup gold upgrade button."
+  },
+  "pro_active": {
+    "message": "Pro està actiu — gràcies.",
+    "description": "Popup Pro-active line."
+  },
+  "more_tools": {
+    "message": "Més eines de calma a zovo.one",
+    "description": "Popup own-funnel link (no sibling cross-sell)."
+  },
+  "footer_help": {
+    "message": "Ajuda i privadesa",
+    "description": "Popup footer link."
+  },
+  "pw_title": {
+    "message": "Fes que la calma sigui automàtica",
+    "description": "Paywall title."
+  },
+  "pw_body": {
+    "message": "Avui calmes cada pàgina a mà i la versió gratuïta recorda tres llocs. Pro fa que Motion Guard funcioni sol a cada lloc i cada dispositiu.",
+    "description": "Paywall body."
+  },
+  "pw_f1": {
+    "message": "Calma cada lloc en el moment que es carrega",
+    "description": "Paywall feature 1."
+  },
+  "pw_f2": {
+    "message": "Llocs recordats il·limitats, més enllà dels 3 gratuïts",
+    "description": "Paywall feature 2."
+  },
+  "pw_f3": {
+    "message": "Congelació profunda del paral·laxi i el moviment JS amb scripts",
+    "description": "Paywall feature 3."
+  },
+  "pw_f4": {
+    "message": "Sincronitza els teus llocs calmats a tots els dispositius",
+    "description": "Paywall feature 4."
+  },
+  "pw_free": {
+    "message": "Gratuït",
+    "description": "Paywall compare: free column head."
+  },
+  "pw_free_1": {
+    "message": "Calma manual",
+    "description": "Paywall compare: free row 1."
+  },
+  "pw_free_2": {
+    "message": "3 llocs recordats",
+    "description": "Paywall compare: free row 2."
+  },
+  "pw_pro": {
+    "message": "Pro",
+    "description": "Paywall compare: pro column head."
+  },
+  "pw_pro_1": {
+    "message": "Calma auto. pertot",
+    "description": "Paywall compare: pro row 1."
+  },
+  "pw_pro_2": {
+    "message": "Il·limitat + sincronització",
+    "description": "Paywall compare: pro row 2."
+  },
+  "pw_price_unit": {
+    "message": "de per vida",
+    "description": "Paywall price unit."
+  },
+  "pw_price_note": {
+    "message": "Un sol pagament desbloqueja Motion Guard Pro per sempre. No és una subscripció.",
+    "description": "Paywall price note."
+  },
+  "pw_cta": {
+    "message": "Aconsegueix Pro — $$99 de per vida",
+    "description": "Paywall upgrade button."
+  },
+  "pw_later": {
+    "message": "Potser més tard",
+    "description": "Paywall dismiss button."
+  },
+  "pw_guarantee": {
+    "message": "Garantia de devolució de 14 dies. Cap dada recollida, mai.",
+    "description": "Paywall risk reversal."
+  },
+  "settings_title": {
+    "message": "Motion Guard",
+    "description": "Options page title."
+  },
+  "settings_sub": {
+    "message": "Calma el moviment de les pàgines — les teves regles, el teu dispositiu.",
+    "description": "Options page subtitle."
+  },
+  "badge_free": {
+    "message": "FREE",
+    "description": "Options tier badge (free)."
+  },
+  "badge_pro": {
+    "message": "PRO",
+    "description": "Options tier badge (pro)."
+  },
+  "get_pro": {
+    "message": "Aconsegueix Pro — $$99",
+    "description": "Options masthead upgrade button."
+  },
+  "general_h": {
+    "message": "General",
+    "description": "Options general section heading."
+  },
+  "theme_t": {
+    "message": "Aparença",
+    "description": "Options theme control title."
+  },
+  "theme_s": {
+    "message": "L’aspecte d’aquesta pàgina de configuració i del popup.",
+    "description": "Options theme control hint."
+  },
+  "theme_system": {
+    "message": "Sistema",
+    "description": "Theme option: follow system."
+  },
+  "theme_light": {
+    "message": "Clar",
+    "description": "Theme option: light."
+  },
+  "theme_dark": {
+    "message": "Fosc",
+    "description": "Theme option: dark."
+  },
+  "master_t": {
+    "message": "Motion Guard està armat",
+    "description": "Options master toggle title."
+  },
+  "master_s": {
+    "message": "Quan està desactivat, no es calma res enlloc.",
+    "description": "Options master toggle hint."
+  },
+  "freeze_h": {
+    "message": "Què congela Motion Guard",
+    "description": "Options freeze section heading."
+  },
+  "freeze_lede": {
+    "message": "S’apliquen cada vegada que calmes una pàgina. Tot s’executa 100% al teu dispositiu.",
+    "description": "Options freeze section lede."
+  },
+  "f_css_t": {
+    "message": "Animacions i transicions CSS",
+    "description": "Freeze option: CSS."
+  },
+  "f_css_s": {
+    "message": "Rodetes, sliders, marquesines, moviment en passar el ratolí.",
+    "description": "Freeze option: CSS hint."
+  },
+  "f_waapi_t": {
+    "message": "Web Animations (JS)",
+    "description": "Freeze option: WAAPI."
+  },
+  "f_waapi_s": {
+    "message": "Moviment impulsat per element.animate().",
+    "description": "Freeze option: WAAPI hint."
+  },
+  "f_gif_t": {
+    "message": "GIF en bucle, WebP i APNG",
+    "description": "Freeze option: images."
+  },
+  "f_gif_s": {
+    "message": "Fixa les imatges animades al seu primer fotograma.",
+    "description": "Freeze option: images hint."
+  },
+  "f_rm_t": {
+    "message": "Aplica l’estil de moviment reduït",
+    "description": "Freeze option: reduced motion."
+  },
+  "f_rm_s": {
+    "message": "Injecta el reinici CSS WCAG de moviment reduït a les pàgines calmades.",
+    "description": "Freeze option: reduced motion hint."
+  },
+  "sites_h": {
+    "message": "Llocs recordats",
+    "description": "Options sites section heading."
+  },
+  "sites_lede": {
+    "message": "Els llocs d’aquí es calmen a cada visita. Afegeix-los des del popup amb «Recorda aquest lloc».",
+    "description": "Options sites lede."
+  },
+  "sites_empty_t": {
+    "message": "Encara no hi ha llocs recordats",
+    "description": "Options sites empty title."
+  },
+  "sites_empty_s": {
+    "message": "Obre un lloc, fes clic a la icona de Motion Guard i després «Recorda aquest lloc».",
+    "description": "Options sites empty text."
+  },
+  "site_agg": {
+    "message": "Profund",
+    "description": "Tag on a remembered site using aggressive mode."
+  },
+  "site_forget": {
+    "message": "Oblida",
+    "description": "Button to remove a remembered site."
+  },
+  "pro_h": {
+    "message": "Automatització i Pro",
+    "description": "Options Pro section heading."
+  },
+  "p_global_t": {
+    "message": "Congela pertot",
+    "description": "Pro: global toggle title."
+  },
+  "p_global_s": {
+    "message": "Calma automàticament cada lloc que obris (demana accés a tots els llocs).",
+    "description": "Pro: global toggle hint."
+  },
+  "p_agg_t": {
+    "message": "Atura també el paral·laxi i el moviment JS",
+    "description": "Pro: aggressive toggle title."
+  },
+  "p_agg_s": {
+    "message": "Congelació més profunda. Pot pausar jocs, reproductors o gràfics en directe.",
+    "description": "Pro: aggressive toggle hint."
+  },
+  "p_sync_t": {
+    "message": "Sincronitza els meus llocs",
+    "description": "Pro: sync toggle title."
+  },
+  "p_sync_s": {
+    "message": "Mantén els teus llocs recordats iguals a tots els dispositius.",
+    "description": "Pro: sync toggle hint."
+  },
+  "pro_locked_t": {
+    "message": "Fes que Motion Guard funcioni sol",
+    "description": "Options Pro-veil headline."
+  },
+  "pro_locked_1": {
+    "message": "Calma cada lloc en el moment que es carrega",
+    "description": "Options Pro-veil unlock 1."
+  },
+  "pro_locked_2": {
+    "message": "Llocs recordats il·limitats, més enllà dels 3 gratuïts",
+    "description": "Options Pro-veil unlock 2."
+  },
+  "pro_locked_3": {
+    "message": "Congelació profunda del paral·laxi i el moviment JS amb scripts",
+    "description": "Options Pro-veil unlock 3."
+  },
+  "pro_locked_4": {
+    "message": "Sincronitza els teus llocs calmats a tots els dispositius",
+    "description": "Options Pro-veil unlock 4."
+  },
+  "pro_locked_unit": {
+    "message": "de per vida · un sol pagament, no una subscripció",
+    "description": "Options Pro-veil price unit."
+  },
+  "pro_locked_cta": {
+    "message": "Aconsegueix Pro — $$99 de per vida",
+    "description": "Options Pro-veil upgrade button."
+  },
+  "pro_locked_guarantee": {
+    "message": "Garantia de devolució de 14 dies. Un sol pagament desbloqueja Motion Guard Pro per sempre.",
+    "description": "Options Pro-veil risk reversal."
+  },
+  "zs_h": {
+    "message": "Desbloqueja Pro. Paga un cop, teu per sempre.",
+    "description": "Sidebar Pro card headline."
+  },
+  "zs_b1": {
+    "message": "Calma cada lloc en el moment que es carrega",
+    "description": "Sidebar Pro benefit 1."
+  },
+  "zs_b2": {
+    "message": "Llocs recordats il·limitats + sincronització entre dispositius",
+    "description": "Sidebar Pro benefit 2."
+  },
+  "zs_b3": {
+    "message": "Congelació profunda del paral·laxi i el moviment JS amb scripts",
+    "description": "Sidebar Pro benefit 3."
+  },
+  "zs_unit": {
+    "message": "de per vida",
+    "description": "Sidebar price unit."
+  },
+  "zs_cta": {
+    "message": "Aconsegueix Pro — $$99 de per vida",
+    "description": "Sidebar upgrade button."
+  },
+  "zs_sub": {
+    "message": "Un sol pagament, no una subscripció · garantia de devolució de 14 dies · gestiona-ho a zovo.one",
+    "description": "Sidebar upgrade sub-line."
+  },
+  "zs_more": {
+    "message": "Més eines",
+    "description": "Sidebar more-tools eyebrow."
+  },
+  "zs_more_link": {
+    "message": "Explora totes les eines a zovo.one",
+    "description": "Sidebar own-funnel link."
+  },
+  "zs_help": {
+    "message": "Ajuda",
+    "description": "Sidebar footer help link."
+  },
+  "zs_privacy": {
+    "message": "Privadesa",
+    "description": "Sidebar footer privacy link."
+  },
+  "lic_label": {
+    "message": "Tens una clau de llicència?",
+    "description": "License input label."
+  },
+  "lic_verify": {
+    "message": "Verifica",
+    "description": "License verify button."
+  },
+  "lic_short": {
+    "message": "Introdueix la teva clau de llicència completa.",
+    "description": "License validation: too short."
+  },
+  "lic_checking": {
+    "message": "Verificant…",
+    "description": "License status: checking."
+  },
+  "lic_ok": {
+    "message": "Pro està actiu — gràcies!",
+    "description": "License status: success."
+  },
+  "lic_bad": {
+    "message": "No s’ha pogut verificar aquesta clau. Comprova-la i torna-ho a provar.",
+    "description": "License status: failure."
+  },
+  "about_h": {
+    "message": "Quant a",
+    "description": "Options about heading."
+  },
+  "about_ver": {
+    "message": "Versió",
+    "description": "About: version label."
+  },
+  "about_priv": {
+    "message": "Privadesa",
+    "description": "About: privacy label."
+  },
+  "about_priv_v": {
+    "message": "Sense comptes, sense seguiment, cap dada surt del teu dispositiu.",
+    "description": "About: privacy value."
+  },
+  "about_kbd": {
+    "message": "Drecera",
+    "description": "About: shortcut label."
+  },
+  "about_kbd_v": {
+    "message": "congela la pàgina actual",
+    "description": "About: shortcut value."
+  },
+  "about_site": {
+    "message": "zovo.one",
+    "description": "About: website link."
+  },
+  "foot_made": {
+    "message": "Fet per Zovo — 100% local, Manifest V3.",
+    "description": "Options footer line."
+  },
+  "s1_kicker": {
+    "message": "Pensat per a migranya, trastorns vestibulars i sensibilitat al moviment",
+    "description": "Onboarding step 1 kicker."
+  },
+  "s2_kicker": {
+    "message": "Prova’l aquí mateix · res a configurar",
+    "description": "Onboarding step 2 kicker."
+  },
+  "s3_kicker": {
+    "message": "Estableix les teves preferències · 20 segons",
+    "description": "Onboarding step 3 kicker."
+  },
+  "s4_kicker": {
+    "message": "Per què hi pots confiar a cada pàgina",
+    "description": "Onboarding step 4 kicker."
+  },
+  "s5_kicker": {
+    "message": "Gratis per sempre · Pro quan el vulguis automàtic",
+    "description": "Onboarding step 5 kicker."
+  },
+  "s6_kicker": {
+    "message": "Ja ho tens tot a punt",
+    "description": "Onboarding step 6 kicker."
+  }
+}

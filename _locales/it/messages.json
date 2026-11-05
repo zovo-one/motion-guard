@@ -1,0 +1,486 @@
+{
+  "extName": {
+    "message": "Motion Guard — Blocca le animazioni",
+    "description": "Extension name shown in chrome://extensions and the Web Store (<= 75 chars)."
+  },
+  "extDesc": {
+    "message": "Blocca animazioni, transizioni, movimenti JS e GIF in loop con un clic. Pagine più calme per chi è sensibile al movimento.",
+    "description": "Short description shown under the extension name (<= 132 chars)."
+  },
+  "ext_short": {
+    "message": "Motion Guard",
+    "description": "Short product name used in headers."
+  },
+  "pro": {
+    "message": "PRO",
+    "description": "Pro tier badge label."
+  },
+  "open_settings": {
+    "message": "Apri le impostazioni",
+    "description": "Popup gear button tooltip/label."
+  },
+  "hero_label": {
+    "message": "Siti calmati auto.",
+    "description": "Popup hero stat label."
+  },
+  "hero_sub_ready": {
+    "message": "Clicca qui sotto per calmare il movimento su questa pagina.",
+    "description": "Popup hero subtitle, idle."
+  },
+  "hero_sub_frozen": {
+    "message": "Il movimento è bloccato su questa pagina.",
+    "description": "Popup hero subtitle when frozen."
+  },
+  "hero_sub_restricted": {
+    "message": "Apri una normale pagina web per calmarne il movimento.",
+    "description": "Popup hero subtitle on restricted pages."
+  },
+  "master_title": {
+    "message": "Motion Guard",
+    "description": "Popup master switch title."
+  },
+  "master_aria": {
+    "message": "Attiva o disattiva Motion Guard",
+    "description": "Popup master switch aria-label."
+  },
+  "master_on": {
+    "message": "Armato e pronto",
+    "description": "Popup master hint when enabled."
+  },
+  "master_off": {
+    "message": "In pausa — nulla viene calmato",
+    "description": "Popup master hint when disabled."
+  },
+  "freeze_page": {
+    "message": "Blocca questa pagina",
+    "description": "Popup primary freeze button."
+  },
+  "unfreeze_page": {
+    "message": "Sblocca questa pagina",
+    "description": "Popup primary button when frozen."
+  },
+  "cant_run": {
+    "message": "Motion Guard non può funzionare su questa pagina.",
+    "description": "Popup note on restricted pages."
+  },
+  "remember_title": {
+    "message": "Ricorda questo sito",
+    "description": "Popup per-site memory row title."
+  },
+  "remember_aria": {
+    "message": "Calma automaticamente questo sito a ogni visita",
+    "description": "Popup remember switch aria-label."
+  },
+  "pro_eyebrow": {
+    "message": "Automatizzalo",
+    "description": "Popup Pro section eyebrow."
+  },
+  "lock_global_t": {
+    "message": "Blocca ovunque",
+    "description": "Popup Pro lock: global."
+  },
+  "lock_global_s": {
+    "message": "Calma automaticamente ogni sito che apri",
+    "description": "Popup Pro lock: global subtitle."
+  },
+  "lock_agg_t": {
+    "message": "Ferma anche parallasse e movimenti JS",
+    "description": "Popup Pro lock: aggressive."
+  },
+  "lock_agg_s": {
+    "message": "Blocco più profondo per gli effetti di scorrimento",
+    "description": "Popup Pro lock: aggressive subtitle."
+  },
+  "lock_sync_t": {
+    "message": "Sincronizza i miei siti",
+    "description": "Popup Pro lock: sync."
+  },
+  "lock_sync_s": {
+    "message": "La stessa calma su ogni dispositivo",
+    "description": "Popup Pro lock: sync subtitle."
+  },
+  "upgrade_cta": {
+    "message": "Passa a Pro",
+    "description": "Popup gold upgrade button."
+  },
+  "pro_active": {
+    "message": "Pro è attivo — grazie.",
+    "description": "Popup Pro-active line."
+  },
+  "more_tools": {
+    "message": "Altri strumenti per la calma su zovo.one",
+    "description": "Popup own-funnel link (no sibling cross-sell)."
+  },
+  "footer_help": {
+    "message": "Aiuto e privacy",
+    "description": "Popup footer link."
+  },
+  "pw_title": {
+    "message": "Rendi la calma automatica",
+    "description": "Paywall title."
+  },
+  "pw_body": {
+    "message": "Oggi calmi ogni pagina a mano e la versione gratuita ricorda tre siti. Pro rende Motion Guard automatico su ogni sito e ogni dispositivo.",
+    "description": "Paywall body."
+  },
+  "pw_f1": {
+    "message": "Calma ogni sito nel momento in cui si carica",
+    "description": "Paywall feature 1."
+  },
+  "pw_f2": {
+    "message": "Siti ricordati illimitati, oltre i 3 gratuiti",
+    "description": "Paywall feature 2."
+  },
+  "pw_f3": {
+    "message": "Blocco profondo di parallasse e movimenti JS scriptati",
+    "description": "Paywall feature 3."
+  },
+  "pw_f4": {
+    "message": "Sincronizza i tuoi siti calmati su ogni dispositivo",
+    "description": "Paywall feature 4."
+  },
+  "pw_free": {
+    "message": "Gratis",
+    "description": "Paywall compare: free column head."
+  },
+  "pw_free_1": {
+    "message": "Calma manuale",
+    "description": "Paywall compare: free row 1."
+  },
+  "pw_free_2": {
+    "message": "3 siti ricordati",
+    "description": "Paywall compare: free row 2."
+  },
+  "pw_pro": {
+    "message": "Pro",
+    "description": "Paywall compare: pro column head."
+  },
+  "pw_pro_1": {
+    "message": "Calma auto. ovunque",
+    "description": "Paywall compare: pro row 1."
+  },
+  "pw_pro_2": {
+    "message": "Illimitato + sync",
+    "description": "Paywall compare: pro row 2."
+  },
+  "pw_price_unit": {
+    "message": "a vita",
+    "description": "Paywall price unit."
+  },
+  "pw_price_note": {
+    "message": "Un unico pagamento sblocca Motion Guard Pro per sempre. Non è un abbonamento.",
+    "description": "Paywall price note."
+  },
+  "pw_cta": {
+    "message": "Ottieni Pro — $$99 a vita",
+    "description": "Paywall upgrade button."
+  },
+  "pw_later": {
+    "message": "Forse più tardi",
+    "description": "Paywall dismiss button."
+  },
+  "pw_guarantee": {
+    "message": "Garanzia soddisfatti o rimborsati di 14 giorni. Nessun dato raccolto, mai.",
+    "description": "Paywall risk reversal."
+  },
+  "settings_title": {
+    "message": "Motion Guard",
+    "description": "Options page title."
+  },
+  "settings_sub": {
+    "message": "Calma il movimento nelle pagine — le tue regole, il tuo dispositivo.",
+    "description": "Options page subtitle."
+  },
+  "badge_free": {
+    "message": "FREE",
+    "description": "Options tier badge (free)."
+  },
+  "badge_pro": {
+    "message": "PRO",
+    "description": "Options tier badge (pro)."
+  },
+  "get_pro": {
+    "message": "Ottieni Pro — $$99",
+    "description": "Options masthead upgrade button."
+  },
+  "general_h": {
+    "message": "Generale",
+    "description": "Options general section heading."
+  },
+  "theme_t": {
+    "message": "Aspetto",
+    "description": "Options theme control title."
+  },
+  "theme_s": {
+    "message": "Come appaiono questa pagina delle impostazioni e il popup.",
+    "description": "Options theme control hint."
+  },
+  "theme_system": {
+    "message": "Sistema",
+    "description": "Theme option: follow system."
+  },
+  "theme_light": {
+    "message": "Chiaro",
+    "description": "Theme option: light."
+  },
+  "theme_dark": {
+    "message": "Scuro",
+    "description": "Theme option: dark."
+  },
+  "master_t": {
+    "message": "Motion Guard è armato",
+    "description": "Options master toggle title."
+  },
+  "master_s": {
+    "message": "Quando è spento, nulla viene calmato da nessuna parte.",
+    "description": "Options master toggle hint."
+  },
+  "freeze_h": {
+    "message": "Cosa blocca Motion Guard",
+    "description": "Options freeze section heading."
+  },
+  "freeze_lede": {
+    "message": "Si applicano ogni volta che calmi una pagina. Tutto viene eseguito al 100% sul tuo dispositivo.",
+    "description": "Options freeze section lede."
+  },
+  "f_css_t": {
+    "message": "Animazioni e transizioni CSS",
+    "description": "Freeze option: CSS."
+  },
+  "f_css_s": {
+    "message": "Spinner, slider, testi scorrevoli, movimenti al passaggio del mouse.",
+    "description": "Freeze option: CSS hint."
+  },
+  "f_waapi_t": {
+    "message": "Web Animations (JS)",
+    "description": "Freeze option: WAAPI."
+  },
+  "f_waapi_s": {
+    "message": "Movimento gestito da element.animate().",
+    "description": "Freeze option: WAAPI hint."
+  },
+  "f_gif_t": {
+    "message": "GIF in loop, WebP e APNG",
+    "description": "Freeze option: images."
+  },
+  "f_gif_s": {
+    "message": "Ferma le immagini animate sul loro primo fotogramma.",
+    "description": "Freeze option: images hint."
+  },
+  "f_rm_t": {
+    "message": "Applica lo stile movimento ridotto",
+    "description": "Freeze option: reduced motion."
+  },
+  "f_rm_s": {
+    "message": "Inietta il reset CSS WCAG per il movimento ridotto sulle pagine calmate.",
+    "description": "Freeze option: reduced motion hint."
+  },
+  "sites_h": {
+    "message": "Siti ricordati",
+    "description": "Options sites section heading."
+  },
+  "sites_lede": {
+    "message": "I siti qui vengono calmati a ogni visita. Aggiungili dal popup con «Ricorda questo sito».",
+    "description": "Options sites lede."
+  },
+  "sites_empty_t": {
+    "message": "Ancora nessun sito ricordato",
+    "description": "Options sites empty title."
+  },
+  "sites_empty_s": {
+    "message": "Apri un sito, clicca l’icona di Motion Guard, poi «Ricorda questo sito».",
+    "description": "Options sites empty text."
+  },
+  "site_agg": {
+    "message": "Profondo",
+    "description": "Tag on a remembered site using aggressive mode."
+  },
+  "site_forget": {
+    "message": "Dimentica",
+    "description": "Button to remove a remembered site."
+  },
+  "pro_h": {
+    "message": "Automazione e Pro",
+    "description": "Options Pro section heading."
+  },
+  "p_global_t": {
+    "message": "Blocca ovunque",
+    "description": "Pro: global toggle title."
+  },
+  "p_global_s": {
+    "message": "Calma automaticamente ogni sito che apri (richiede l’accesso a tutti i siti).",
+    "description": "Pro: global toggle hint."
+  },
+  "p_agg_t": {
+    "message": "Ferma anche parallasse e movimenti JS",
+    "description": "Pro: aggressive toggle title."
+  },
+  "p_agg_s": {
+    "message": "Blocco più profondo. Può mettere in pausa giochi, player o grafici in tempo reale.",
+    "description": "Pro: aggressive toggle hint."
+  },
+  "p_sync_t": {
+    "message": "Sincronizza i miei siti",
+    "description": "Pro: sync toggle title."
+  },
+  "p_sync_s": {
+    "message": "Mantieni i tuoi siti ricordati uguali su ogni dispositivo.",
+    "description": "Pro: sync toggle hint."
+  },
+  "pro_locked_t": {
+    "message": "Rendi Motion Guard automatico",
+    "description": "Options Pro-veil headline."
+  },
+  "pro_locked_1": {
+    "message": "Calma ogni sito nel momento in cui si carica",
+    "description": "Options Pro-veil unlock 1."
+  },
+  "pro_locked_2": {
+    "message": "Siti ricordati illimitati, oltre i 3 gratuiti",
+    "description": "Options Pro-veil unlock 2."
+  },
+  "pro_locked_3": {
+    "message": "Blocco profondo di parallasse e movimenti JS scriptati",
+    "description": "Options Pro-veil unlock 3."
+  },
+  "pro_locked_4": {
+    "message": "Sincronizza i tuoi siti calmati su ogni dispositivo",
+    "description": "Options Pro-veil unlock 4."
+  },
+  "pro_locked_unit": {
+    "message": "a vita · un pagamento, non un abbonamento",
+    "description": "Options Pro-veil price unit."
+  },
+  "pro_locked_cta": {
+    "message": "Ottieni Pro — $$99 a vita",
+    "description": "Options Pro-veil upgrade button."
+  },
+  "pro_locked_guarantee": {
+    "message": "Garanzia soddisfatti o rimborsati di 14 giorni. Un pagamento sblocca Motion Guard Pro per sempre.",
+    "description": "Options Pro-veil risk reversal."
+  },
+  "zs_h": {
+    "message": "Sblocca Pro. Paghi una volta, tuo per sempre.",
+    "description": "Sidebar Pro card headline."
+  },
+  "zs_b1": {
+    "message": "Calma ogni sito nel momento in cui si carica",
+    "description": "Sidebar Pro benefit 1."
+  },
+  "zs_b2": {
+    "message": "Siti ricordati illimitati + sincronizzazione multi-dispositivo",
+    "description": "Sidebar Pro benefit 2."
+  },
+  "zs_b3": {
+    "message": "Blocco profondo di parallasse e movimenti JS scriptati",
+    "description": "Sidebar Pro benefit 3."
+  },
+  "zs_unit": {
+    "message": "a vita",
+    "description": "Sidebar price unit."
+  },
+  "zs_cta": {
+    "message": "Ottieni Pro — $$99 a vita",
+    "description": "Sidebar upgrade button."
+  },
+  "zs_sub": {
+    "message": "Un pagamento, non un abbonamento · garanzia 14 giorni soddisfatti o rimborsati · gestisci su zovo.one",
+    "description": "Sidebar upgrade sub-line."
+  },
+  "zs_more": {
+    "message": "Altri strumenti",
+    "description": "Sidebar more-tools eyebrow."
+  },
+  "zs_more_link": {
+    "message": "Sfoglia tutti gli strumenti su zovo.one",
+    "description": "Sidebar own-funnel link."
+  },
+  "zs_help": {
+    "message": "Aiuto",
+    "description": "Sidebar footer help link."
+  },
+  "zs_privacy": {
+    "message": "Privacy",
+    "description": "Sidebar footer privacy link."
+  },
+  "lic_label": {
+    "message": "Hai una chiave di licenza?",
+    "description": "License input label."
+  },
+  "lic_verify": {
+    "message": "Verifica",
+    "description": "License verify button."
+  },
+  "lic_short": {
+    "message": "Inserisci la tua chiave di licenza completa.",
+    "description": "License validation: too short."
+  },
+  "lic_checking": {
+    "message": "Verifica in corso…",
+    "description": "License status: checking."
+  },
+  "lic_ok": {
+    "message": "Pro è attivo — grazie!",
+    "description": "License status: success."
+  },
+  "lic_bad": {
+    "message": "Impossibile verificare quella chiave. Controllala e riprova.",
+    "description": "License status: failure."
+  },
+  "about_h": {
+    "message": "Informazioni",
+    "description": "Options about heading."
+  },
+  "about_ver": {
+    "message": "Versione",
+    "description": "About: version label."
+  },
+  "about_priv": {
+    "message": "Privacy",
+    "description": "About: privacy label."
+  },
+  "about_priv_v": {
+    "message": "Nessun account, nessun tracciamento, nessun dato lascia il tuo dispositivo.",
+    "description": "About: privacy value."
+  },
+  "about_kbd": {
+    "message": "Scorciatoia",
+    "description": "About: shortcut label."
+  },
+  "about_kbd_v": {
+    "message": "blocca la pagina attuale",
+    "description": "About: shortcut value."
+  },
+  "about_site": {
+    "message": "zovo.one",
+    "description": "About: website link."
+  },
+  "foot_made": {
+    "message": "Creato da Zovo — 100% locale, Manifest V3.",
+    "description": "Options footer line."
+  },
+  "s1_kicker": {
+    "message": "Pensato per emicrania, disturbi vestibolari e sensibilità al movimento",
+    "description": "Onboarding step 1 kicker."
+  },
+  "s2_kicker": {
+    "message": "Provalo proprio qui · niente da configurare",
+    "description": "Onboarding step 2 kicker."
+  },
+  "s3_kicker": {
+    "message": "Imposta le tue preferenze · 20 secondi",
+    "description": "Onboarding step 3 kicker."
+  },
+  "s4_kicker": {
+    "message": "Perché puoi fidarti su ogni pagina",
+    "description": "Onboarding step 4 kicker."
+  },
+  "s5_kicker": {
+    "message": "Gratis per sempre · Pro quando lo vuoi automatico",
+    "description": "Onboarding step 5 kicker."
+  },
+  "s6_kicker": {
+    "message": "È tutto pronto",
+    "description": "Onboarding step 6 kicker."
+  }
+}

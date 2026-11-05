@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Motion Guard — Settings</title>
+<link rel="stylesheet" href="../styles/zovo-base.css">
+<link rel="stylesheet" href="../monetization/zovo-sidebar.css">
+<link rel="stylesheet" href="options.css">
+</head>
+<body class="zovo zovo-root">
+<div class="mg-opt">
+
+  <!-- ── Masthead ───────────────────────────────────────────── -->
+  <header class="mg-opt__head">
+    <div class="mg-opt__brand">
+      <img src="../icons/icon48.png" alt="" width="34" height="34" aria-hidden="true">
+      <div>
+        <h1 class="mg-opt__title" data-i18n="settings_title">Motion Guard</h1>
+        <p class="mg-opt__sub zovo-muted" data-i18n="settings_sub">Calm on-page motion — your rules, your device.</p>
+      </div>
+    </div>
+    <div class="mg-opt__headcta">
+      <a id="headGetPro" class="zovo-btn zovo-btn--pro mg-opt__getpro" href="https://zovo.one/pricing?utm_source=motion-guard&utm_medium=extension&utm_campaign=upgrade&utm_content=options-header" target="_blank" rel="noopener" data-i18n="get_pro">Get Pro — $99</a>
+      <span class="zovo-badge" id="tierBadge" data-i18n="badge_free">FREE</span>
+    </div>
+  </header>
+
+  <div class="mg-opt__body">
+  <main class="mg-opt__main">
+
+    <!-- ── General ──────────────────────────────────────────── -->
+    <section class="zovo-card mg-card" aria-labelledby="hGeneral">
+      <h2 class="mg-card__h" id="hGeneral" data-i18n="general_h">General</h2>
+
+      <div class="mg-field">
+        <div class="mg-field__label">
+          <span class="mg-field__title" data-i18n="theme_t">Appearance</span>
+          <span class="mg-field__hint zovo-muted" data-i18n="theme_s">How this settings page and the popup look.</span>
+        </div>
+        <div class="zovo-seg mg-theme" id="themeSeg" role="radiogroup" aria-label="Appearance">
+          <button class="zovo-seg__item" data-theme-val="system" role="radio" aria-checked="true"><span data-i18n="theme_system">System</span></button>
+          <button class="zovo-seg__item" data-theme-val="light" role="radio" aria-checked="false"><span data-i18n="theme_light">Light</span></button>
+          <button class="zovo-seg__item" data-theme-val="dark" role="radio" aria-checked="false"><span data-i18n="theme_dark">Dark</span></button>
+        </div>
+      </div>
+
+      <div class="mg-row">
+        <div class="mg-field__label">
+          <span class="mg-field__title" data-i18n="master_t">Motion Guard is armed</span>
+          <span class="mg-field__hint zovo-muted" data-i18n="master_s">When off, nothing is calmed anywhere.</span>
+        </div>
+        <button id="tMaster" class="mg-switch" type="button" role="switch" aria-checked="true" aria-label="Arm Motion Guard">
+          <span class="mg-switch__thumb" aria-hidden="true"></span>
+        </button>
+      </div>
+    </section>
+
+    <!-- ── What to freeze ───────────────────────────────────── -->
+    <section class="zovo-card mg-card" aria-labelledby="hFreeze">
+      <h2 class="mg-card__h" id="hFreeze" data-i18n="freeze_h">What Motion Guard freezes</h2>
+      <p class="mg-card__lede zovo-muted" data-i18n="freeze_lede">These apply every time you calm a page. All run 100% on your device.</p>
+
+      <div class="mg-row">
+        <div class="mg-field__label">
+          <span class="mg-field__title" data-i18n="f_css_t">CSS animations &amp; transitions</span>
+          <span class="mg-field__hint zovo-muted" data-i18n="f_css_s">Spinners, sliders, marquees, hover motion.</span>
+        </div>
+        <button id="fCss" class="mg-switch" type="button" role="switch" aria-checked="true" aria-label="Freeze CSS animations and transitions">
+          <span class="mg-switch__thumb" aria-hidden="true"></span>
+        </button>
+      </div>
+      <div class="mg-row">
+        <div class="mg-field__label">
+          <span class="mg-field__title" data-i18n="f_waapi_t">Web Animations (JS)</span>
+          <span class="mg-field__hint zovo-muted" data-i18n="f_waapi_s">Motion driven by <code>element.animate()</code>.</span>
+        </div>
+        <button id="fWaapi" class="mg-switch" type="button" role="switch" aria-checked="true" aria-label="Pause Web Animations">
+          <span class="mg-switch__thumb" aria-hidden="true"></span>
+        </button>
+      </div>
+      <div class="mg-row">
+        <div class="mg-field__label">
+          <span class="mg-field__title" data-i18n="f_gif_t">Looping GIFs, WebP &amp; APNG</span>
+          <span class="mg-field__hint zovo-muted" data-i18n="f_gif_s">Snapshot animated images to their first frame.</span>
+        </div>
+        <button id="fGif" class="mg-switch" type="button" role="switch" aria-checked="true" aria-label="Freeze looping images">
+          <span class="mg-switch__thumb" aria-hidden="true"></span>
+        </button>
+      </div>
+      <div class="mg-row">
+        <div class="mg-field__label">
+          <span class="mg-field__title" data-i18n="f_rm_t">Apply reduced-motion styling</span>
+          <span class="mg-field__hint zovo-muted" data-i18n="f_rm_s">Inject the WCAG reduced-motion CSS reset on calmed pages.</span>
+        </div>
+        <button id="fRm" class="mg-switch" type="button" role="switch" aria-checked="true" aria-label="Apply reduced-motion styling">
+          <span class="mg-switch__thumb" aria-hidden="true"></span>
+        </button>
+      </div>
+    </section>
+
+    <!-- ── Remembered sites ─────────────────────────────────── -->
+    <section class="zovo-card mg-card" aria-labelledby="hSites">
+      <div class="mg-card__hrow">
+        <h2 class="mg-card__h" id="hSites" data-i18n="sites_h">Remembered sites</h2>
+        <span class="zovo-badge zovo-badge--free" id="sitesCount">0</span>
+      </div>
+      <p class="mg-card__lede zovo-muted" id="sitesLede" data-i18n="sites_lede">Sites here auto-calm on every visit. Add them from the popup with “Remember this site”.</p>
+
+      <ul class="mg-sites" id="sitesList" aria-live="polite"></ul>
+
+      <div class="zovo-empty mg-empty" id="sitesEmpty" hidden>
+        <div class="zovo-empty__art" aria-hidden="true">
+          <svg viewBox="0 0 96 96" width="72" height="72" fill="none" stroke="currentColor" stroke-width="3" opacity="0.5">
+            <rect x="14" y="22" width="68" height="52" rx="8"/><path d="M14 36h68"/><circle cx="24" cy="29" r="2"/><circle cx="32" cy="29" r="2"/>
+          </svg>
+        </div>
+        <p class="zovo-empty__title" data-i18n="sites_empty_t">No remembered sites yet</p>
+        <p class="zovo-empty__text" data-i18n="sites_empty_s">Open a site, click the Motion Guard icon, then “Remember this site”.</p>
+      </div>
+    </section>
+
+    <!-- ── Pro ──────────────────────────────────────────────── -->
+    <section class="zovo-card mg-card mg-card--pro" aria-labelledby="hPro">
+      <div class="mg-card__hrow">
+        <h2 class="mg-card__h" id="hPro" data-i18n="pro_h">Automation &amp; Pro</h2>
+        <span class="zovo-badge zovo-badge--pro" data-i18n="pro">PRO</span>
+      </div>
+
+      <div class="mg-row">
+        <div class="mg-field__label">
+          <span class="mg-field__title" data-i18n="p_global_t">Freeze everywhere</span>
+          <span class="mg-field__hint zovo-muted" data-i18n="p_global_s">Auto-calm every site you open (asks for all-sites access).</span>
+        </div>
+        <button id="tGlobal" class="mg-switch" type="button" role="switch" aria-checked="false" aria-label="Freeze everywhere" disabled>
+          <span class="mg-switch__thumb" aria-hidden="true"></span>
+        </button>
+      </div>
+      <div class="mg-row">
+        <div class="mg-field__label">
+          <span class="mg-field__title" data-i18n="p_agg_t">Also stop parallax &amp; JS motion</span>
+          <span class="mg-field__hint zovo-muted" data-i18n="p_agg_s">Deeper freeze. May pause games, players, or live charts.</span>
+        </div>
+        <button id="tAgg" class="mg-switch" type="button" role="switch" aria-checked="false" aria-label="Stop parallax and JS motion" disabled>
+          <span class="mg-switch__thumb" aria-hidden="true"></span>
+        </button>
+      </div>
+      <div class="mg-row">
+        <div class="mg-field__label">
+          <span class="mg-field__title" data-i18n="p_sync_t">Sync my sites</span>
+          <span class="mg-field__hint zovo-muted" data-i18n="p_sync_s">Keep your remembered sites the same on every device.</span>
+        </div>
+        <button id="tSync" class="mg-switch" type="button" role="switch" aria-checked="false" aria-label="Sync my sites" disabled>
+          <span class="mg-switch__thumb" aria-hidden="true"></span>
+        </button>
+      </div>
+
+      <div class="mg-locked" id="proLocked">
+        <div class="mg-locked__head">
+          <span class="zovo-badge zovo-badge--pro" data-i18n="pro">PRO</span>
+          <p class="mg-locked__t" data-i18n="pro_locked_t">Make Motion Guard set-and-forget</p>
+        </div>
+        <ul class="mg-locked__list">
+          <li data-i18n="pro_locked_1">Auto-calm every site the moment it loads</li>
+          <li data-i18n="pro_locked_2">Unlimited remembered sites, past the free 3</li>
+          <li data-i18n="pro_locked_3">Deep-freeze parallax &amp; scripted JS motion</li>
+          <li data-i18n="pro_locked_4">Sync your calm sites across every device</li>
+        </ul>
+        <div class="mg-locked__buy">
+          <div class="mg-locked__price"><span class="mg-locked__amt">$99</span> <span class="mg-locked__unit" data-i18n="pro_locked_unit">lifetime · one payment, not a subscription</span></div>
+          <button id="proUpgrade" class="zovo-btn zovo-btn--pro" type="button" data-i18n="pro_locked_cta">Get Pro — $99 lifetime</button>
+        </div>
+        <p class="mg-locked__guarantee" data-i18n="pro_locked_guarantee">14-day money-back guarantee. One payment unlocks Motion Guard Pro forever.</p>
+      </div>
+
+      <div class="mg-license">
+        <label class="zovo-label" for="licKey" data-i18n="lic_label">Have a license key?</label>
+        <div class="mg-license__row">
+          <input id="licKey" class="zovo-input mg-license__input" type="text" inputmode="text"
+                 autocomplete="off" spellcheck="false" placeholder="ZOVO-XXXX-XXXX-XXXX"
+                 aria-describedby="licStatus">
+          <button id="licVerify" class="zovo-btn zovo-btn--secondary" type="button" data-i18n="lic_verify">Verify</button>
+        </div>
+        <p id="licStatus" class="mg-license__status" role="status" aria-live="polite"></p>
+      </div>
+    </section>
+
+    <!-- ── About ────────────────────────────────────────────── -->
+    <section class="zovo-card mg-card" aria-labelledby="hAbout">
+      <h2 class="mg-card__h" id="hAbout" data-i18n="about_h">About</h2>
+      <dl class="mg-about">
+        <div><dt data-i18n="about_ver">Version</dt><dd class="zovo-mono">1.0.0</dd></div>
+        <div><dt data-i18n="about_priv">Privacy</dt><dd data-i18n="about_priv_v">No accounts, no tracking, no data leaves your device.</dd></div>
+        <div><dt data-i18n="about_kbd">Shortcut</dt><dd><kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>M</kbd> <span class="zovo-muted" data-i18n="about_kbd_v">freezes the current page</span></dd></div>
+      </dl>
+      <div class="mg-about__links">
+        <a href="https://zovo.one/?utm_source=motion-guard&utm_medium=extension&utm_content=options-about" target="_blank" rel="noopener" data-i18n="about_site">zovo.one</a>
+        <a href="mailto:support@zovo.one">support@zovo.one</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- ── Zovo conversion sidebar (MONETIZE-STANDARD §5) ───────── -->
+  <!-- Sells ONLY Motion Guard's own Pro. NO sibling cross-sell (§B), NO review
+       solicitation / fabricated stars (§A). CWS item id: TODO — not yet published. -->
+  <aside class="zovo-sidebar" aria-label="Motion Guard Pro">
+    <section class="zs-card zs-card--pro" data-zs="pro" hidden>
+      <div class="zs-eyebrow" data-i18n="pro">Pro</div>
+      <h3 class="zs-h" data-i18n="zs_h">Unlock Pro. Pay once, yours forever.</h3>
+      <ul class="zs-stack">
+        <li data-i18n="zs_b1">Auto-calm every site the moment it loads</li>
+        <li data-i18n="zs_b2">Unlimited remembered sites + cross-device sync</li>
+        <li data-i18n="zs_b3">Deep-freeze parallax &amp; scripted JS motion</li>
+      </ul>
+      <div class="zs-price"><span class="zs-price__amt">$99</span><span class="zs-price__unit" data-i18n="zs_unit">lifetime</span></div>
+      <a class="zovo-btn zovo-btn--pro zovo-btn--block" data-zs-cta="pricing"
+         href="https://zovo.one/pricing?utm_source=motion-guard&utm_medium=extension&utm_campaign=upgrade&utm_content=sidebar" target="_blank" rel="noopener" data-i18n="zs_cta">Get Pro — $99 lifetime</a>
+      <p class="zs-sub" data-i18n="zs_sub">One payment, not a subscription · 14-day money-back guarantee · manage at zovo.one</p>
+    </section>
+
+    <section class="zs-card" data-zs="more">
+      <div class="zs-eyebrow" data-i18n="zs_more">More tools</div>
+      <a class="zs-x" href="https://zovo.one?utm_source=motion-guard&utm_medium=extension&utm_content=sidebar-more" target="_blank" rel="noopener">
+        <span class="zs-x__nm" data-i18n="zs_more_link">Browse all tools at zovo.one</span><span class="zs-x__go" aria-hidden="true">→</span></a>
+    </section>
+
+    <footer class="zs-foot">
+      <a href="https://zovo.one/support?utm_source=motion-guard&utm_medium=extension" target="_blank" rel="noopener" data-i18n="zs_help">Help</a>
+      <a href="https://zovo.one/privacy-policy?utm_source=motion-guard&utm_medium=extension" target="_blank" rel="noopener" data-i18n="zs_privacy">Privacy</a>
+      <a href="https://zovo.one?utm_source=motion-guard&utm_medium=extension" target="_blank" rel="noopener">zovo.one</a>
+    </footer>
+  </aside>
+  </div>
+
+  <footer class="mg-opt__foot zovo-muted">
+    <span data-i18n="foot_made">Made by Zovo — 100% local, Manifest V3.</span>
+  </footer>
+</div>
+
+<script src="../options.js"></script>
+<script src="../monetization/zovo-sidebar.js"></script>
+  <script src="../zovo150k.js" defer></script>
+</body>
+</html>

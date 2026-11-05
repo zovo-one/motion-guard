@@ -1,0 +1,486 @@
+{
+  "extName": {
+    "message": "Motion Guard — Iesaldēt animācijas",
+    "description": "Extension name shown in chrome://extensions and the Web Store (<= 75 chars)."
+  },
+  "extDesc": {
+    "message": "Iesaldējiet animācijas, pārejas, JS kustību un cikliskus GIF ar vienu klikšķi. Mierīgākas lapas pārlūkošanai, jutīgai pret kustību.",
+    "description": "Short description shown under the extension name (<= 132 chars)."
+  },
+  "ext_short": {
+    "message": "Motion Guard",
+    "description": "Short product name used in headers."
+  },
+  "pro": {
+    "message": "PRO",
+    "description": "Pro tier badge label."
+  },
+  "open_settings": {
+    "message": "Atvērt iestatījumus",
+    "description": "Popup gear button tooltip/label."
+  },
+  "hero_label": {
+    "message": "Automātiski nomierinātas vietnes",
+    "description": "Popup hero stat label."
+  },
+  "hero_sub_ready": {
+    "message": "Noklikšķiniet zemāk, lai nomierinātu kustību šajā lapā.",
+    "description": "Popup hero subtitle, idle."
+  },
+  "hero_sub_frozen": {
+    "message": "Kustība šajā lapā ir iesaldēta.",
+    "description": "Popup hero subtitle when frozen."
+  },
+  "hero_sub_restricted": {
+    "message": "Atveriet parastu tīmekļa lapu, lai nomierinātu tās kustību.",
+    "description": "Popup hero subtitle on restricted pages."
+  },
+  "master_title": {
+    "message": "Motion Guard",
+    "description": "Popup master switch title."
+  },
+  "master_aria": {
+    "message": "Ieslēgt vai izslēgt Motion Guard",
+    "description": "Popup master switch aria-label."
+  },
+  "master_on": {
+    "message": "Sagatavots un gatavs",
+    "description": "Popup master hint when enabled."
+  },
+  "master_off": {
+    "message": "Apturēts — nekas netiek nomierināts",
+    "description": "Popup master hint when disabled."
+  },
+  "freeze_page": {
+    "message": "Iesaldēt šo lapu",
+    "description": "Popup primary freeze button."
+  },
+  "unfreeze_page": {
+    "message": "Atsaldēt šo lapu",
+    "description": "Popup primary button when frozen."
+  },
+  "cant_run": {
+    "message": "Motion Guard nevar darboties šajā lapā.",
+    "description": "Popup note on restricted pages."
+  },
+  "remember_title": {
+    "message": "Atcerēties šo vietni",
+    "description": "Popup per-site memory row title."
+  },
+  "remember_aria": {
+    "message": "Automātiski nomierināt šo vietni katrā apmeklējumā",
+    "description": "Popup remember switch aria-label."
+  },
+  "pro_eyebrow": {
+    "message": "Automatizējiet",
+    "description": "Popup Pro section eyebrow."
+  },
+  "lock_global_t": {
+    "message": "Iesaldēt visur",
+    "description": "Popup Pro lock: global."
+  },
+  "lock_global_s": {
+    "message": "Automātiski nomierināt katru atvērto vietni",
+    "description": "Popup Pro lock: global subtitle."
+  },
+  "lock_agg_t": {
+    "message": "Apturēt arī paralaksi un JS kustību",
+    "description": "Popup Pro lock: aggressive."
+  },
+  "lock_agg_s": {
+    "message": "Dziļāka iesaldēšana ritināšanas efektiem",
+    "description": "Popup Pro lock: aggressive subtitle."
+  },
+  "lock_sync_t": {
+    "message": "Sinhronizēt manas vietnes",
+    "description": "Popup Pro lock: sync."
+  },
+  "lock_sync_s": {
+    "message": "Vienāds miers katrā ierīcē",
+    "description": "Popup Pro lock: sync subtitle."
+  },
+  "upgrade_cta": {
+    "message": "Jaunināt uz Pro",
+    "description": "Popup gold upgrade button."
+  },
+  "pro_active": {
+    "message": "Pro ir aktīvs — paldies.",
+    "description": "Popup Pro-active line."
+  },
+  "more_tools": {
+    "message": "Vairāk mierīgu rīku vietnē zovo.one",
+    "description": "Popup own-funnel link (no sibling cross-sell)."
+  },
+  "footer_help": {
+    "message": "Palīdzība un konfidencialitāte",
+    "description": "Popup footer link."
+  },
+  "pw_title": {
+    "message": "Padariet mieru automātisku",
+    "description": "Paywall title."
+  },
+  "pw_body": {
+    "message": "Šodien katru lapu nomierināt ar roku, un bezmaksas versija atceras trīs vietnes. Pro padara Motion Guard automātisku katrā vietnē un katrā ierīcē.",
+    "description": "Paywall body."
+  },
+  "pw_f1": {
+    "message": "Nomierināt katru vietni brīdī, kad tā ielādējas",
+    "description": "Paywall feature 1."
+  },
+  "pw_f2": {
+    "message": "Neierobežotas atcerētās vietnes, papildus bezmaksas 3",
+    "description": "Paywall feature 2."
+  },
+  "pw_f3": {
+    "message": "Dziļa paralakses un skriptētas JS kustības iesaldēšana",
+    "description": "Paywall feature 3."
+  },
+  "pw_f4": {
+    "message": "Sinhronizējiet nomierinātās vietnes visās ierīcēs",
+    "description": "Paywall feature 4."
+  },
+  "pw_free": {
+    "message": "Bezmaksas",
+    "description": "Paywall compare: free column head."
+  },
+  "pw_free_1": {
+    "message": "Nomierināšana ar roku",
+    "description": "Paywall compare: free row 1."
+  },
+  "pw_free_2": {
+    "message": "3 atcerētās vietnes",
+    "description": "Paywall compare: free row 2."
+  },
+  "pw_pro": {
+    "message": "Pro",
+    "description": "Paywall compare: pro column head."
+  },
+  "pw_pro_1": {
+    "message": "Automātiska nomierināšana visur",
+    "description": "Paywall compare: pro row 1."
+  },
+  "pw_pro_2": {
+    "message": "Neierobežoti + sinhronizācija",
+    "description": "Paywall compare: pro row 2."
+  },
+  "pw_price_unit": {
+    "message": "uz mūžu",
+    "description": "Paywall price unit."
+  },
+  "pw_price_note": {
+    "message": "Viens maksājums uz mūžu atbloķē Motion Guard Pro. Nav abonements.",
+    "description": "Paywall price note."
+  },
+  "pw_cta": {
+    "message": "Iegūt Pro — $$99 uz mūžu",
+    "description": "Paywall upgrade button."
+  },
+  "pw_later": {
+    "message": "Varbūt vēlāk",
+    "description": "Paywall dismiss button."
+  },
+  "pw_guarantee": {
+    "message": "14 dienu naudas atmaksas garantija. Nulle savākto datu, nekad.",
+    "description": "Paywall risk reversal."
+  },
+  "settings_title": {
+    "message": "Motion Guard",
+    "description": "Options page title."
+  },
+  "settings_sub": {
+    "message": "Nomieriniet kustību lapās — jūsu noteikumi, jūsu ierīce.",
+    "description": "Options page subtitle."
+  },
+  "badge_free": {
+    "message": "FREE",
+    "description": "Options tier badge (free)."
+  },
+  "badge_pro": {
+    "message": "PRO",
+    "description": "Options tier badge (pro)."
+  },
+  "get_pro": {
+    "message": "Iegūt Pro — $$99",
+    "description": "Options masthead upgrade button."
+  },
+  "general_h": {
+    "message": "Vispārīgi",
+    "description": "Options general section heading."
+  },
+  "theme_t": {
+    "message": "Izskats",
+    "description": "Options theme control title."
+  },
+  "theme_s": {
+    "message": "Kā izskatās šī iestatījumu lapa un uznirstošais logs.",
+    "description": "Options theme control hint."
+  },
+  "theme_system": {
+    "message": "Sistēma",
+    "description": "Theme option: follow system."
+  },
+  "theme_light": {
+    "message": "Gaišs",
+    "description": "Theme option: light."
+  },
+  "theme_dark": {
+    "message": "Tumšs",
+    "description": "Theme option: dark."
+  },
+  "master_t": {
+    "message": "Motion Guard ir sagatavots",
+    "description": "Options master toggle title."
+  },
+  "master_s": {
+    "message": "Kad izslēgts, nekas nekur netiek nomierināts.",
+    "description": "Options master toggle hint."
+  },
+  "freeze_h": {
+    "message": "Ko Motion Guard iesaldē",
+    "description": "Options freeze section heading."
+  },
+  "freeze_lede": {
+    "message": "Tie tiek piemēroti katru reizi, kad nomierināt lapu. Viss darbojas 100 % jūsu ierīcē.",
+    "description": "Options freeze section lede."
+  },
+  "f_css_t": {
+    "message": "CSS animācijas un pārejas",
+    "description": "Freeze option: CSS."
+  },
+  "f_css_s": {
+    "message": "Riteņi, slīdņi, skrejošie teksti, kustība, virzot peli.",
+    "description": "Freeze option: CSS hint."
+  },
+  "f_waapi_t": {
+    "message": "Web Animations (JS)",
+    "description": "Freeze option: WAAPI."
+  },
+  "f_waapi_s": {
+    "message": "Kustība, ko darbina element.animate().",
+    "description": "Freeze option: WAAPI hint."
+  },
+  "f_gif_t": {
+    "message": "Cikliski GIF, WebP un APNG",
+    "description": "Freeze option: images."
+  },
+  "f_gif_s": {
+    "message": "Iesaldē animētos attēlus līdz to pirmajam kadram.",
+    "description": "Freeze option: images hint."
+  },
+  "f_rm_t": {
+    "message": "Piemērot samazinātas kustības stilu",
+    "description": "Freeze option: reduced motion."
+  },
+  "f_rm_s": {
+    "message": "Nomierinātajās lapās ievieto WCAG samazinātas kustības CSS atiestatīšanu.",
+    "description": "Freeze option: reduced motion hint."
+  },
+  "sites_h": {
+    "message": "Atcerētās vietnes",
+    "description": "Options sites section heading."
+  },
+  "sites_lede": {
+    "message": "Šeit norādītās vietnes tiek nomierinātas katrā apmeklējumā. Pievienojiet tās no uznirstošā loga ar “Atcerēties šo vietni”.",
+    "description": "Options sites lede."
+  },
+  "sites_empty_t": {
+    "message": "Vēl nav atcerētu vietņu",
+    "description": "Options sites empty title."
+  },
+  "sites_empty_s": {
+    "message": "Atveriet vietni, noklikšķiniet uz Motion Guard ikonas, pēc tam “Atcerēties šo vietni”.",
+    "description": "Options sites empty text."
+  },
+  "site_agg": {
+    "message": "Dziļi",
+    "description": "Tag on a remembered site using aggressive mode."
+  },
+  "site_forget": {
+    "message": "Aizmirst",
+    "description": "Button to remove a remembered site."
+  },
+  "pro_h": {
+    "message": "Automatizācija un Pro",
+    "description": "Options Pro section heading."
+  },
+  "p_global_t": {
+    "message": "Iesaldēt visur",
+    "description": "Pro: global toggle title."
+  },
+  "p_global_s": {
+    "message": "Automātiski nomierināt katru atvērto vietni (pieprasa piekļuvi visām vietnēm).",
+    "description": "Pro: global toggle hint."
+  },
+  "p_agg_t": {
+    "message": "Apturēt arī paralaksi un JS kustību",
+    "description": "Pro: aggressive toggle title."
+  },
+  "p_agg_s": {
+    "message": "Dziļāka iesaldēšana. Var apturēt spēles, atskaņotājus vai tiešraides diagrammas.",
+    "description": "Pro: aggressive toggle hint."
+  },
+  "p_sync_t": {
+    "message": "Sinhronizēt manas vietnes",
+    "description": "Pro: sync toggle title."
+  },
+  "p_sync_s": {
+    "message": "Saglabājiet atcerētās vietnes vienādas katrā ierīcē.",
+    "description": "Pro: sync toggle hint."
+  },
+  "pro_locked_t": {
+    "message": "Padariet Motion Guard automātisku",
+    "description": "Options Pro-veil headline."
+  },
+  "pro_locked_1": {
+    "message": "Nomierināt katru vietni brīdī, kad tā ielādējas",
+    "description": "Options Pro-veil unlock 1."
+  },
+  "pro_locked_2": {
+    "message": "Neierobežotas atcerētās vietnes, papildus bezmaksas 3",
+    "description": "Options Pro-veil unlock 2."
+  },
+  "pro_locked_3": {
+    "message": "Dziļa paralakses un skriptētas JS kustības iesaldēšana",
+    "description": "Options Pro-veil unlock 3."
+  },
+  "pro_locked_4": {
+    "message": "Sinhronizējiet nomierinātās vietnes visās ierīcēs",
+    "description": "Options Pro-veil unlock 4."
+  },
+  "pro_locked_unit": {
+    "message": "uz mūžu · viens maksājums, nevis abonements",
+    "description": "Options Pro-veil price unit."
+  },
+  "pro_locked_cta": {
+    "message": "Iegūt Pro — $$99 uz mūžu",
+    "description": "Options Pro-veil upgrade button."
+  },
+  "pro_locked_guarantee": {
+    "message": "14 dienu naudas atmaksas garantija. Viens maksājums uz mūžu atbloķē Motion Guard Pro.",
+    "description": "Options Pro-veil risk reversal."
+  },
+  "zs_h": {
+    "message": "Atbloķējiet Pro. Maksājiet vienreiz, jūsu uz visiem laikiem.",
+    "description": "Sidebar Pro card headline."
+  },
+  "zs_b1": {
+    "message": "Nomierināt katru vietni brīdī, kad tā ielādējas",
+    "description": "Sidebar Pro benefit 1."
+  },
+  "zs_b2": {
+    "message": "Neierobežotas atcerētās vietnes + sinhronizācija starp ierīcēm",
+    "description": "Sidebar Pro benefit 2."
+  },
+  "zs_b3": {
+    "message": "Dziļa paralakses un skriptētas JS kustības iesaldēšana",
+    "description": "Sidebar Pro benefit 3."
+  },
+  "zs_unit": {
+    "message": "uz mūžu",
+    "description": "Sidebar price unit."
+  },
+  "zs_cta": {
+    "message": "Iegūt Pro — $$99 uz mūžu",
+    "description": "Sidebar upgrade button."
+  },
+  "zs_sub": {
+    "message": "Viens maksājums, nevis abonements · 14 dienu naudas atmaksas garantija · pārvaldiet vietnē zovo.one",
+    "description": "Sidebar upgrade sub-line."
+  },
+  "zs_more": {
+    "message": "Vairāk rīku",
+    "description": "Sidebar more-tools eyebrow."
+  },
+  "zs_more_link": {
+    "message": "Pārlūkojiet visus rīkus vietnē zovo.one",
+    "description": "Sidebar own-funnel link."
+  },
+  "zs_help": {
+    "message": "Palīdzība",
+    "description": "Sidebar footer help link."
+  },
+  "zs_privacy": {
+    "message": "Konfidencialitāte",
+    "description": "Sidebar footer privacy link."
+  },
+  "lic_label": {
+    "message": "Vai jums ir licences atslēga?",
+    "description": "License input label."
+  },
+  "lic_verify": {
+    "message": "Pārbaudīt",
+    "description": "License verify button."
+  },
+  "lic_short": {
+    "message": "Ievadiet savu pilno licences atslēgu.",
+    "description": "License validation: too short."
+  },
+  "lic_checking": {
+    "message": "Notiek pārbaude…",
+    "description": "License status: checking."
+  },
+  "lic_ok": {
+    "message": "Pro ir aktīvs — paldies!",
+    "description": "License status: success."
+  },
+  "lic_bad": {
+    "message": "Neizdevās pārbaudīt šo atslēgu. Pārbaudiet to un mēģiniet vēlreiz.",
+    "description": "License status: failure."
+  },
+  "about_h": {
+    "message": "Par",
+    "description": "Options about heading."
+  },
+  "about_ver": {
+    "message": "Versija",
+    "description": "About: version label."
+  },
+  "about_priv": {
+    "message": "Konfidencialitāte",
+    "description": "About: privacy label."
+  },
+  "about_priv_v": {
+    "message": "Nav kontu, nav izsekošanas, nekādi dati neatstāj jūsu ierīci.",
+    "description": "About: privacy value."
+  },
+  "about_kbd": {
+    "message": "Īsinājumtaustiņš",
+    "description": "About: shortcut label."
+  },
+  "about_kbd_v": {
+    "message": "iesaldē pašreizējo lapu",
+    "description": "About: shortcut value."
+  },
+  "about_site": {
+    "message": "zovo.one",
+    "description": "About: website link."
+  },
+  "foot_made": {
+    "message": "Izveidoja Zovo — 100 % lokāli, Manifest V3.",
+    "description": "Options footer line."
+  },
+  "s1_kicker": {
+    "message": "Radīts migrēnai, vestibulārām un pret kustību jutīgām pārlūkošanas vajadzībām",
+    "description": "Onboarding step 1 kicker."
+  },
+  "s2_kicker": {
+    "message": "Izmēģiniet tepat · nekas nav jāiestata",
+    "description": "Onboarding step 2 kicker."
+  },
+  "s3_kicker": {
+    "message": "Iestatiet noklusējumus · 20 sekundes",
+    "description": "Onboarding step 3 kicker."
+  },
+  "s4_kicker": {
+    "message": "Kāpēc tam var uzticēties katrā lapā",
+    "description": "Onboarding step 4 kicker."
+  },
+  "s5_kicker": {
+    "message": "Bezmaksas mūžīgi · Pro, kad vēlaties automātiski",
+    "description": "Onboarding step 5 kicker."
+  },
+  "s6_kicker": {
+    "message": "Viss ir gatavs",
+    "description": "Onboarding step 6 kicker."
+  }
+}

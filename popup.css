@@ -1,0 +1,206 @@
+/* ============================================================================
+ * popup.css — Motion Guard toolbar popup.
+ * Layers on top of zovo-base.css tokens/components. Theme-aware (light + dark)
+ * via the shared --zovo-* custom properties; no hard-coded colors.
+ * ========================================================================== */
+
+.mg-popup { padding-bottom: 0; }
+
+/* ---- Header icon button --------------------------------------------------- */
+.mg-iconbtn {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 32px; height: 32px; flex: 0 0 32px;
+  color: var(--zovo-text-secondary);
+  background: transparent; border: 1px solid transparent;
+  border-radius: var(--zovo-radius-btn); cursor: pointer;
+  transition: background var(--zovo-transition), color var(--zovo-transition);
+}
+.mg-iconbtn:hover { background: var(--zovo-surface-2); color: var(--zovo-text); }
+.mg-iconbtn:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 2px var(--zovo-bg), 0 0 0 4px var(--zovo-primary);
+}
+
+/* ---- Hero ----------------------------------------------------------------- */
+.mg-hero { padding: var(--zovo-space-6) var(--zovo-space-5) var(--zovo-space-5); }
+.mg-hero__badge {
+  width: 52px; height: 52px; margin: 0 auto var(--zovo-space-3);
+  display: flex; align-items: center; justify-content: center;
+  color: var(--zovo-primary);
+  background: var(--zovo-primary-50);
+  border-radius: var(--zovo-radius-pill);
+  transition: color var(--zovo-transition), background var(--zovo-transition);
+}
+.mg-hero.is-frozen .mg-hero__badge { color: var(--zovo-accent); background: color-mix(in srgb, var(--zovo-accent) 14%, var(--zovo-bg)); }
+.mg-hero__sub { font-size: var(--zovo-fs-caption); }
+
+/* ---- Master switch card --------------------------------------------------- */
+.mg-master {
+  display: flex; align-items: center; gap: var(--zovo-space-3);
+  margin: 0 var(--zovo-space-5) 0; padding: var(--zovo-space-4) 0;
+  border-top: 1px solid var(--zovo-border);
+  border-bottom: 1px solid var(--zovo-border);
+}
+.mg-master__text { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 2px; }
+.mg-master__title { font-weight: var(--zovo-fw-heading); }
+.mg-master__hint { font-size: var(--zovo-fs-caption); }
+
+/* ---- Toggle switch (a11y: role=switch, aria-checked drives visual) -------- */
+.mg-switch {
+  position: relative; flex: 0 0 auto;
+  width: 46px; height: 26px; padding: 0;
+  background: var(--zovo-surface-2);
+  border: 1px solid var(--zovo-border);
+  border-radius: var(--zovo-radius-pill);
+  cursor: pointer;
+  transition: background var(--zovo-transition), border-color var(--zovo-transition);
+}
+.mg-switch__thumb {
+  position: absolute; top: 2px; left: 2px;
+  width: 20px; height: 20px; border-radius: 50%;
+  background: #fff;
+  box-shadow: var(--zovo-shadow-sm);
+  transition: transform var(--zovo-transition);
+}
+.mg-switch[aria-checked='true'] { background: var(--zovo-primary); border-color: var(--zovo-primary); }
+.mg-switch[aria-checked='true'] .mg-switch__thumb { transform: translateX(20px); }
+.mg-switch:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 2px var(--zovo-bg), 0 0 0 4px var(--zovo-primary);
+}
+.mg-switch--sm { width: 40px; height: 23px; }
+.mg-switch--sm .mg-switch__thumb { width: 17px; height: 17px; }
+.mg-switch--sm[aria-checked='true'] .mg-switch__thumb { transform: translateX(17px); }
+
+/* ---- Stack ---------------------------------------------------------------- */
+.mg-stack { gap: var(--zovo-space-4); padding-top: var(--zovo-space-5); }
+.mg-section { display: flex; flex-direction: column; gap: var(--zovo-space-2); }
+
+.mg-freeze { position: relative; }
+.mg-freeze__ico { flex: 0 0 auto; }
+.mg-freeze.is-frozen {
+  background: color-mix(in srgb, var(--zovo-accent) 14%, var(--zovo-bg));
+  color: var(--zovo-accent); border-color: color-mix(in srgb, var(--zovo-accent) 30%, transparent);
+}
+.mg-freeze.is-frozen:hover:not([disabled]) { background: color-mix(in srgb, var(--zovo-accent) 20%, var(--zovo-bg)); }
+
+.mg-inline-note {
+  margin: calc(var(--zovo-space-2) * -1) 0 0;
+  font-size: var(--zovo-fs-caption); color: var(--zovo-text-secondary);
+  text-align: center;
+}
+
+/* ---- Remember this site --------------------------------------------------- */
+.mg-remember {
+  display: flex; align-items: center; gap: var(--zovo-space-3);
+  padding: var(--zovo-space-3) var(--zovo-space-4);
+  background: var(--zovo-surface); border: 1px solid var(--zovo-border);
+  border-radius: var(--zovo-radius-card);
+}
+.mg-remember__body { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 2px; }
+.mg-remember__title { font-weight: var(--zovo-fw-medium); font-size: var(--zovo-fs-body); }
+.mg-remember__origin {
+  font-size: var(--zovo-fs-caption); color: var(--zovo-text-secondary);
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+
+/* ---- Pro lock rows -------------------------------------------------------- */
+.mg-lock {
+  display: flex; align-items: center; gap: var(--zovo-space-3);
+  width: 100%; padding: var(--zovo-space-3);
+  text-align: left;
+  background: var(--zovo-bg); border: 1px solid var(--zovo-border);
+  border-radius: var(--zovo-radius-btn); cursor: pointer;
+  transition: border-color var(--zovo-transition), background var(--zovo-transition);
+}
+.mg-lock:hover { border-color: var(--zovo-pro); background: color-mix(in srgb, var(--zovo-pro) 6%, var(--zovo-bg)); }
+.mg-lock:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 2px var(--zovo-bg), 0 0 0 4px var(--zovo-pro);
+}
+.mg-lock__ico {
+  flex: 0 0 34px; width: 34px; height: 34px;
+  display: flex; align-items: center; justify-content: center;
+  color: var(--zovo-pro);
+  background: color-mix(in srgb, var(--zovo-pro) 12%, transparent);
+  border-radius: var(--zovo-radius-btn);
+}
+.mg-lock__text { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 1px; }
+.mg-lock__title { font-size: var(--zovo-fs-body); font-weight: var(--zovo-fw-medium); }
+.mg-lock__sub { font-size: var(--zovo-fs-caption); }
+/* When Pro, the same rows act as live toggles rather than locks. */
+.mg-lock.is-on { border-color: var(--zovo-primary); background: var(--zovo-primary-50); }
+.mg-lock.is-on .mg-lock__ico { color: var(--zovo-primary); background: var(--zovo-primary-50); }
+
+/* ---- Pro-active line ------------------------------------------------------ */
+.mg-proline {
+  display: flex; align-items: center; justify-content: center; gap: var(--zovo-space-2);
+  font-size: var(--zovo-fs-caption); font-weight: var(--zovo-fw-medium);
+  color: var(--zovo-success);
+}
+
+/* ---- Own-funnel link (single, neutral — no sibling cross-sell) ------------ */
+.mg-cross {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: var(--zovo-space-2) var(--zovo-space-3);
+  border-radius: var(--zovo-radius-btn);
+  color: var(--zovo-text-secondary); text-decoration: none;
+  transition: background var(--zovo-transition), color var(--zovo-transition);
+}
+.mg-cross:hover { background: var(--zovo-primary-50); color: var(--zovo-text); }
+.mg-cross__t { font-size: var(--zovo-fs-caption); }
+.mg-cross__arr { color: var(--zovo-primary); font-weight: var(--zovo-fw-heading); }
+.mg-cross:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 2px var(--zovo-bg), 0 0 0 3px var(--zovo-primary);
+}
+
+/* ---- Paywall modal -------------------------------------------------------- */
+.mg-modal { position: fixed; inset: 0; z-index: 50; display: flex; align-items: flex-end; justify-content: center; }
+.mg-modal[hidden] { display: none; }
+.mg-modal__scrim { position: absolute; inset: 0; background: rgba(16,24,40,0.55); backdrop-filter: blur(2px); }
+.mg-modal__card {
+  position: relative; z-index: 1;
+  width: 100%; max-width: var(--zovo-popup-w);
+  margin: 0; border-radius: var(--zovo-radius-card) var(--zovo-radius-card) 0 0;
+  box-shadow: var(--zovo-shadow-lg);
+  animation: mg-rise 200ms ease-out;
+}
+@keyframes mg-rise { from { transform: translateY(16px); opacity: 0; } to { transform: none; opacity: 1; } }
+.mg-modal__badge { margin-bottom: var(--zovo-space-3); }
+.mg-modal__title { margin: 0 0 var(--zovo-space-2); font-size: var(--zovo-fs-heading); font-weight: 700; letter-spacing: -0.01em; }
+.mg-modal__body { margin: 0 0 var(--zovo-space-4); font-size: var(--zovo-fs-body); }
+.mg-modal__list { list-style: none; margin: 0 0 var(--zovo-space-4); padding: 0; display: flex; flex-direction: column; gap: var(--zovo-space-2); }
+.mg-modal__list li { display: flex; align-items: flex-start; gap: var(--zovo-space-2); font-size: var(--zovo-fs-body); }
+.mg-modal__list svg { color: var(--zovo-success); flex: 0 0 15px; margin-top: 3px; }
+
+/* ---- Free vs Pro mini comparison ------------------------------------------ */
+.mg-compare {
+  display: grid; grid-template-columns: 1fr 1fr; gap: var(--zovo-space-2);
+  margin: 0 0 var(--zovo-space-4);
+}
+.mg-compare__col {
+  display: flex; flex-direction: column; gap: 4px;
+  padding: var(--zovo-space-3);
+  background: var(--zovo-surface); border: 1px solid var(--zovo-border);
+  border-radius: var(--zovo-radius-btn);
+}
+.mg-compare__col--pro { border-color: color-mix(in srgb, var(--zovo-pro) 40%, transparent); background: color-mix(in srgb, var(--zovo-pro) 7%, var(--zovo-bg)); }
+.mg-compare__h { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--zovo-text-secondary); }
+.mg-compare__col--pro .mg-compare__h { color: var(--zovo-pro-dark); }
+.mg-compare__v { font-size: var(--zovo-fs-caption); color: var(--zovo-text); }
+
+/* ---- Price line ----------------------------------------------------------- */
+.mg-price { display: flex; align-items: baseline; justify-content: center; gap: 6px; margin-bottom: 2px; }
+.mg-price__amt { font-size: 30px; font-weight: 800; letter-spacing: -0.02em; font-variant-numeric: tabular-nums; }
+.mg-price__unit { font-size: var(--zovo-fs-caption); font-weight: 600; color: var(--zovo-text-secondary); text-transform: uppercase; letter-spacing: .05em; }
+.mg-price__note { margin: 0 0 var(--zovo-space-4); text-align: center; font-size: var(--zovo-fs-caption); color: var(--zovo-text-secondary); }
+
+.mg-modal__card .zovo-btn { margin-bottom: var(--zovo-space-2); }
+.mg-guarantee { margin: var(--zovo-space-3) 0 0; text-align: center; font-size: var(--zovo-fs-caption); color: var(--zovo-text-secondary); }
+
+/* ---- Motion-safety: our own UI honors reduced-motion ---------------------- */
+@media (prefers-reduced-motion: reduce) {
+  .mg-modal__card { animation: none; }
+  .mg-switch__thumb { transition: none; }
+}
